@@ -1,0 +1,1218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns1:GIADBSet xmlns:ns1="http://www.rustest.ru/giadbset">
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>1EC477E6-7443-48C6-9A9B-0DF061821589</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 1</ns1:GovernmentName>
+		<ns1:LawAddress>465592 ц.Ничнцвлчнэж, тл.Цъванщ, 14</ns1:LawAddress>
+		<ns1:Address>624439 ж.Гямфщхццмее, лш.Нлтщфд, 63</ns1:Address>
+		<ns1:ChargeFIO>Айлечывяэн Бпжхч Висгйевъъжы</ns1:ChargeFIO>
+		<ns1:Phones>(27223)2-50-91</ns1:Phones>
+		<ns1:Mails>qofgxwessow@brov.jx</ns1:Mails>
+		<ns1:WWW>enhag://ubi.kmowq.oe/e-ftegf/vzej879258.oty</ns1:WWW>
+		<ns1:ChargePosition>Должность руководителя ОИВ 1</ns1:ChargePosition>
+		<ns1:Faxes>(03713)3-06-34</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Омъхезщнр Мшлеььгъ Циюмивхцнамузхб</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>gjngsytyeiy@cfpe.nu</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>1(90629)61088</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>7372715C-5605-43DC-990E-12E4D8F44245</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 2</ns1:GovernmentName>
+		<ns1:LawAddress>945524, у.Ытсял, сч.Д.Рйнюйн, 5д</ns1:LawAddress>
+		<ns1:Address>568281, ь.Рржэц, рю.Р.Цтвщюй, 0к</ns1:Address>
+		<ns1:ChargeFIO>Цэпхьючйхп Зуююшэ Еавючопбзаскчы</ns1:ChargeFIO>
+		<ns1:Phones>8(34862)55851</ns1:Phones>
+		<ns1:Mails>sag-zvztz@rlgb.bz</ns1:Mails>
+		<ns1:WWW>gzhw://cvd.vylva.eq/oacno/qxe</ns1:WWW>
+		<ns1:ChargePosition>Должность руководителя ОИВ 2</ns1:ChargePosition>
+		<ns1:Faxes>9(37582)62452</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Екхесрасягоыц Ъаюцруфж Хрдлэяйщфоън</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>wfrru-srosd@cyoy.en</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>1(19908)08409</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>0B0DC08D-51E7-4AB8-A6ED-142AB44E1E12</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 3</ns1:GovernmentName>
+		<ns1:LawAddress>006120, ШТ, ж.Ыикехюд, нк-во Фвцфэмнэжз, ж.312</ns1:LawAddress>
+		<ns1:Address>311753, ФО, р.Ыщгяллв, рп-рк Уюфчулптяг, б.402</ns1:Address>
+		<ns1:ChargeFIO>Жпюизщэ Цмижп Мащткэосишю</ns1:ChargeFIO>
+		<ns1:Phones>1(67814)25929, 3(48933)13011</ns1:Phones>
+		<ns1:Mails>Zdd.Esf@dwrob.go</ns1:Mails>
+		<ns1:WWW>jhhpymyvyt.mb</ns1:WWW>
+		<ns1:ChargePosition>Должность руководителя ОИВ 3</ns1:ChargePosition>
+		<ns1:Faxes>5(46982)30744</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Дзмысб Ырсдю Жцутджкпза</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>Jrcl.Rdndvkyr@iukyo.ga</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>1(59466)48320</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>4912ABEE-77DD-4A32-830E-9986E19958E7</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 4</ns1:GovernmentName>
+		<ns1:LawAddress>458902, пзъ. Ъюбуюу, мш. Шфзйош, 12</ns1:LawAddress>
+		<ns1:Address>891115, щды. Йкфчкт, ож. Ьаюгэс, 87</ns1:Address>
+		<ns1:ChargeFIO>Ипфхепдй Иезюпэ Чсшцэцагхрю</ns1:ChargeFIO>
+		<ns1:Phones>4(90153)6-26-75</ns1:Phones>
+		<ns1:Mails>Zpaxps.Ngmjulcp@sho.hsayh.th</ns1:Mails>
+		<ns1:WWW>qwer://pif.vjuhi.fy/xnvjzg/qmpwq</ns1:WWW>
+		<ns1:ChargePosition>Должность руководителя ОИВ 4</ns1:ChargePosition>
+		<ns1:Faxes>2(78238)7-80-49</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Метечияььящя Ифйф Тхъокасюъче</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>Irayo.Xslhwaaedgy@wfd.ebkke.wy</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>9(28231)4-56-79</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>2AD7C7AE-DB51-4DDD-A66F-1B6B1900F9F9</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 5</ns1:GovernmentName>
+		<ns1:LawAddress>730474, Жашоеб, йу. Чхвхтзйцжьв 7</ns1:LawAddress>
+		<ns1:Address>991876, ц.Нщвжтк, уз. Жгбюэюэмцуй, с.2</ns1:Address>
+		<ns1:ChargeFIO>Ютлеыене Шнйуцъ Адйолаэук</ns1:ChargeFIO>
+		<ns1:Phones>(967)033-03-34;(577)990-23-90</ns1:Phones>
+		<ns1:Mails>mxa@miogg.du</ns1:Mails>
+		<ns1:WWW>cwvz://don.mvslitzsl.zv/</ns1:WWW>
+		<ns1:ChargePosition>Должность руководителя ОИВ 5</ns1:ChargePosition>
+		<ns1:Faxes>(588)369-35-86</ns1:Faxes>
+		<ns1:GType>1</ns1:GType>
+		<ns1:SpecialistFIO>Еэпжфж Щэпру Зрйцеыщидж</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>Iermg.Uyxgay.L@tqkfw.gd</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>(567)075-94-44</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>5B99DFEF-55A7-4A30-847A-1DE777D78637</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 6</ns1:GovernmentName>
+		<ns1:LawAddress>541593 к.Экжрорйвъ, що.Няйъчсяцю, 82</ns1:LawAddress>
+		<ns1:Address>362029 и.Нфшлхлзаж, жъ.Ййспдлбшп, 65</ns1:Address>
+		<ns1:ChargeFIO>Доеявмюо Оочтвай Жбцъчоткъююми</ns1:ChargeFIO>
+		<ns1:Phones>6(3321)5-18-34</ns1:Phones>
+		<ns1:Mails>gxqbshhm@jqqfuv.xi</ns1:Mails>
+		<ns1:ChargePosition>Должность руководителя ОИВ 6</ns1:ChargePosition>
+		<ns1:Faxes>4(2124)1-99-70</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Щзндештдфьм Ъввеьшуы Лиесзосдь</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>ljrnzeaj@rwuvma.od</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>9(3180)74611</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>3EFF4593-747F-4E51-9962-20950E65FAF4</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 7</ns1:GovernmentName>
+		<ns1:LawAddress>354705, мэгз.Ьишмчуеиф, Рмаретцфвфтщд ъьоюээютрзыюс оуццд, л.Рыэлпчбыш, цз.Д.Ифюфьл, 20</ns1:LawAddress>
+		<ns1:Address>517010, ьыжж.Люзысжшыю, Ръвтцжйсщзгъл льхясдкзкеръл гшвнр, б.Амыядлгсъ, ка.М.Фльтъь, 62</ns1:Address>
+		<ns1:ChargeFIO>Ифажмшыщл Цьфкхи Бвцыылшуб</ns1:ChargeFIO>
+		<ns1:Phones>(84332)7-97-21; (14310)1-63-52</ns1:Phones>
+		<ns1:Mails>iuevp64@xlmgt.jxb</ns1:Mails>
+		<ns1:WWW>tgzrj://fbn.lyovj.tu/utllcggel/ijb</ns1:WWW>
+		<ns1:ChargePosition>Должность руководителя ОИВ 7</ns1:ChargePosition>
+		<ns1:Faxes>(37075)7-99-06; (93040)8-04-38</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Сиыъжмгае Йвпме Енчкдтжф</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>vookm84@arxsc.ush</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>(92992)8-05-43</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>0A645738-D504-44A5-97BD-235D693AC3F2</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 8</ns1:GovernmentName>
+		<ns1:LawAddress>025235, ущ, х.Дуащдкычшйс, ао.Шгфэ Ьяентдкнпг,67</ns1:LawAddress>
+		<ns1:Address>318537, бт, и.Кээзъэлыишк, жж.Щдмч Флээыасйщу,03</ns1:Address>
+		<ns1:ChargeFIO>Лнчьоерофд Цгхурдщ Йвзтфпэкдьря</ns1:ChargeFIO>
+		<ns1:Phones>8(4035)84-68-11</ns1:Phones>
+		<ns1:Mails>wckg@wembmjbd.gy</ns1:Mails>
+		<ns1:WWW>jugdiqjp.na</ns1:WWW>
+		<ns1:ChargePosition>Должность руководителя ОИВ 8</ns1:ChargePosition>
+		<ns1:Faxes>6(9899)73-44-19</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Едйнювт Йкбжэбю Тжчсьохюрп</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>eowl@bbkrsfdu.ss</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>2(4193)75-64-06</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>0879B266-4864-4395-83CC-2890BC14A8A6</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 9</ns1:GovernmentName>
+		<ns1:LawAddress>110088 н. Мммльомьлеэя, тя. Оъхлфр, 76</ns1:LawAddress>
+		<ns1:Address>693748 ь. Уьпгтямлтийх, ын. Фнйсуы, 65</ns1:Address>
+		<ns1:ChargeFIO>Ошжюйрснца Щсефв Ьшчяфчпщ</ns1:ChargeFIO>
+		<ns1:Phones>1(63593)2-93-11</ns1:Phones>
+		<ns1:Mails>AY.Qwthm@bmjcp.fc</ns1:Mails>
+		<ns1:WWW>uwie://sfj.kpegs.of/</ns1:WWW>
+		<ns1:ChargePosition>Должность руководителя ОИВ 9</ns1:ChargePosition>
+		<ns1:Faxes>8(39558)8-90-85</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Жтзйефкуи Ьчееялнз Йеюуигь</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>Zlcdlhvw.Qtrmkust@qqbuc.gj</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>2(97901)7-73-57</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>5AC6AF84-0AE1-46D8-BE98-2C27DC77C932</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 10</ns1:GovernmentName>
+		<ns1:LawAddress>014092, и.Хбибэщмьлтн, мэ.Ъыъбью, т.69</ns1:LawAddress>
+		<ns1:Address>036710, м.Пздщлцывзгэ, бх.Ашрймы, г.42</ns1:Address>
+		<ns1:ChargeFIO>Юцтцтышцфб Куцемсл Руклшнеиевщыв</ns1:ChargeFIO>
+		<ns1:Phones>(948)036-04-15</ns1:Phones>
+		<ns1:Mails>Aqr.Sah@zgqkc.ac</ns1:Mails>
+		<ns1:WWW>dvtzo://ebo.wjejb.ab/clgtpfugwnv/RVAN/xapthwfygh_czuqaniligrm</ns1:WWW>
+		<ns1:ChargePosition>Должность руководителя ОИВ 10</ns1:ChargePosition>
+		<ns1:Faxes>(491)476-75-18</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Сщюгвеъдт Ьзтя Жыхсьяанз</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>Zmyhb.Pioiytjvn@vdgpa.rr</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>(015)148-35-46</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>8A99D2E2-96CD-4FA1-B3CC-307AABAC991A</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 11</ns1:GovernmentName>
+		<ns1:LawAddress>266743 ф.Шырцвк, жщ.Жмолершук, 56</ns1:LawAddress>
+		<ns1:Address>390137 ы.Днкщэы, сг.Жспйжбчсм, 99</ns1:Address>
+		<ns1:ChargeFIO>Лпчтщагг Чабкэ Якосоутяи</ns1:ChargeFIO>
+		<ns1:Phones>(902)600-77-61, 889-32-21</ns1:Phones>
+		<ns1:Mails>ynxkag@fv.bc</ns1:Mails>
+		<ns1:WWW>uvk.7.yi</ns1:WWW>
+		<ns1:ChargePosition>Должность руководителя ОИВ 11</ns1:ChargePosition>
+		<ns1:Faxes>(664)469-46-02</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Гсотпкч Шйешкя Иэлъхбф</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>xckrln@hs.kz</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>(790)384-44-66</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>0DEB9715-28C2-4DDE-BFAE-32E861B02AAA</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 12</ns1:GovernmentName>
+		<ns1:LawAddress>913866 е.Энбкезгорэзк, Щжэзъаелэбючои эмыюь, юш.Жммпршюие, 84</ns1:LawAddress>
+		<ns1:Address>974327 и.Махбфюэефъеы, Уюйехуьйещтийъ рюуыш, оэ.Дьецлшятй, 87</ns1:Address>
+		<ns1:ChargeFIO>Рмжитъэч Улюеуорех Ууюантэюхч</ns1:ChargeFIO>
+		<ns1:Phones>(486)385-10-80</ns1:Phones>
+		<ns1:Mails>pxs8656@welviq.ep</ns1:Mails>
+		<ns1:WWW>rqyq://ycokjde.bb</ns1:WWW>
+		<ns1:ChargePosition>Должность руководителя ОИВ 12</ns1:ChargePosition>
+		<ns1:Faxes>(511)297-82-47</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Кнщюкл Оошгцгйбх Эоытычпои</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>aup7400@elojox.gk</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>(964)584-43-42</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>49B889BD-5654-472E-A681-370103A2F6C5</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 13</ns1:GovernmentName>
+		<ns1:LawAddress>018914 к.Нпрзщхь, ги.Юавззщцхз, 7з</ns1:LawAddress>
+		<ns1:Address>795920 х.Тлндщюф, хп.Яфзшмчыка, 9з</ns1:Address>
+		<ns1:ChargeFIO>Сддофтйтскюс Пвйнжю Ефыуяхншйкеп</ns1:ChargeFIO>
+		<ns1:Phones>6(49777)8-33-63</ns1:Phones>
+		<ns1:Mails>jupmgn-xiujbd@wiea.uo</ns1:Mails>
+		<ns1:WWW>qohos://knb.udihk.rp/ollprxiv/rijrdiog</ns1:WWW>
+		<ns1:ChargePosition>Должность руководителя ОИВ 13</ns1:ChargePosition>
+		<ns1:Faxes>9(90336)6-36-88</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Зозгетюю Цмщщузш Ийжсзщжтю</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>utqcugvslgk@bcny.uw</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>1(62698)2-53-92</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>A473273E-D467-4C9C-8DE6-434DCD35DB7C</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 14</ns1:GovernmentName>
+		<ns1:LawAddress>978301 Гъйпьйъълт Щщеууцшшт, Уьпзцрхзу тбшоп ъ.Фмннижд Ъжйп, юу. Есвсгпохияй, 40</ns1:LawAddress>
+		<ns1:Address>780224 Еъулцражуы Юлжяыщалс, Уцигузжпш зиуаб ч.Огиудцщ Ыжэс, оъ. Щмгннщсрпяя, 08</ns1:Address>
+		<ns1:ChargeFIO>Дыяякщпу Щсчхнйл Яхяюфтзж</ns1:ChargeFIO>
+		<ns1:Phones>(5-256-86)0-22-70</ns1:Phones>
+		<ns1:Mails>yyk_gqqym@apiq.sz</ns1:Mails>
+		<ns1:WWW>aqz.oqhzxzsq.vhwgt.bt</ns1:WWW>
+		<ns1:ChargePosition>Должность руководителя ОИВ 14</ns1:ChargePosition>
+		<ns1:Faxes>(1-127-82)5-81-22</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Ыймкищмл Цицймтн Чщнбгфхц</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>vdirox@fnlc.ag</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>(2-137-99)3-96-57</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>8E550FF6-0CCD-4A0C-9A77-4489024BAD66</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 15</ns1:GovernmentName>
+		<ns1:LawAddress>577728, Ожлеыжвырж Ыюхгхщъъх, Млютпмшрьейю щдхыи, у. Мсэзязйжз, цр. Эшивкртт, 82</ns1:LawAddress>
+		<ns1:Address>663722, Ээуфягоояш Съцжллпсф, Щсюэчофницвй йшгяэ, ю. Ыйддтпыйй, ас. Щмшяцико, 54</ns1:Address>
+		<ns1:ChargeFIO>Йжххнн Аыцбл Болшйпршчб</ns1:ChargeFIO>
+		<ns1:Phones>7(85972)0-72-11</ns1:Phones>
+		<ns1:Mails>yan.gih@iwmad.jt</ns1:Mails>
+		<ns1:WWW>ium.xtmrw.rj</ns1:WWW>
+		<ns1:ChargePosition>Должность руководителя ОИВ 15</ns1:ChargePosition>
+		<ns1:Faxes>1(79381)8-22-11</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Хявыстсч Шшмкэм Млбиайтф</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>hjlcpqo.wppfqfzw@pphpb.ee</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>8(85059)6-61-04</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>74713C69-1705-49DA-AE50-4D1CE905E2E6</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 16</ns1:GovernmentName>
+		<ns1:LawAddress>530649 Ифоткзкниц Взнзхээлз, ю. Ауьйзрцтбв Тшшцу, зп. Мжрн Кзпдмоэ, 77</ns1:LawAddress>
+		<ns1:Address>415752 Пуъгдфжцэк Ъждфдехйх, к. Аскищцхсзм Ьмцви, зо. Ипуг Атикувэ, 15</ns1:Address>
+		<ns1:ChargeFIO>Кзхъп Нъуимш Учеяугьдгя</ns1:ChargeFIO>
+		<ns1:Phones>(4268)70-85-06</ns1:Phones>
+		<ns1:Mails>vqnyec-nsy@muol.mk</ns1:Mails>
+		<ns1:ChargePosition>Должность руководителя ОИВ 16</ns1:ChargePosition>
+		<ns1:Faxes>(5100)95-60-89</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Эъцпггтзе Ьсчцьобм Шишчуторхж</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>fwjrkrk71@oekj.jo</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>(6564)79-80-69</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>5404EBAD-C324-4E0B-AC6D-5566A815E752</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 17</ns1:GovernmentName>
+		<ns1:LawAddress>496318 ,оаен. Мшайлпешц, Шзьиаэщещлвпф фмцзг,б.Дпгсбн Фхыггэиъв, аы.Бермнапжючй, ш.38 ф</ns1:LawAddress>
+		<ns1:Address>751543 ,кэбж.Цыяобъкяс, Шиадзиэцчбдюх ьймяю,н.Бгяоди Озбюйщбщл, щк.Щфэкзхаъфхв, п.24 л</ns1:Address>
+		<ns1:ChargeFIO>Рбшэн Тещш Ычдечмуяб</ns1:ChargeFIO>
+		<ns1:Phones>(09062)21098;3(19130)15586</ns1:Phones>
+		<ns1:Mails>nhriksyklnbm@wscbyd.yd</ns1:Mails>
+		<ns1:WWW>liy.bxrdz.nl</ns1:WWW>
+		<ns1:ChargePosition>Должность руководителя ОИВ 17</ns1:ChargePosition>
+		<ns1:Faxes>(50829)75785</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Эшккийы Бшзуы Миягнжюэтум</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>Jwvewxow@yygx.xz</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>(26772)21897</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>DFE6BAA0-DD92-4358-AEA5-56A68F522264</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 18</ns1:GovernmentName>
+		<ns1:LawAddress>676872 б.бсйъьн, йх.жхшгчае зоотзглщд, 9</ns1:LawAddress>
+		<ns1:Address>079563 ю.сфзблб, щн.гшююыэм чзфтмящиш, 3</ns1:Address>
+		<ns1:ChargeFIO>Жюпъвыпщ еябтдиюм каннкычтв</ns1:ChargeFIO>
+		<ns1:Phones>(799)2947695</ns1:Phones>
+		<ns1:Mails>fxr.gpt@uiemw.fs; ilkxuwz@vwwcan.ga</ns1:Mails>
+		<ns1:WWW>injf://ahdbusg.cc-pux.hz</ns1:WWW>
+		<ns1:ChargePosition>Должность руководителя ОИВ 18</ns1:ChargePosition>
+		<ns1:Faxes>(781)8645791</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Тзцтшяиуьиедт Ымжвгнэй Фбйяефосват</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>Gjbupiy.Diqtwoqihuie@mjlgu.pd</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>(090)0720145</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>E400A0D4-573D-4D6F-9733-5CAA1CCB3F50</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 19</ns1:GovernmentName>
+		<ns1:LawAddress>023386 л.Еюьюрахцсо Йсьъг, да.Н.Риимще, 61</ns1:LawAddress>
+		<ns1:Address>397929 е.Лйгъвяыодж Гешыо, ию.Ь.Кщнязу, 09</ns1:Address>
+		<ns1:ChargeFIO>Онзгзжк Ывьйпю Фаьцьрйжяя</ns1:ChargeFIO>
+		<ns1:Phones>5(4882)23-91-37</ns1:Phones>
+		<ns1:Mails>ajlprgqj@wcvx.bd</ns1:Mails>
+		<ns1:WWW>nuoep://epu.idknf.kj/m_sfrcwn/ugnyjf_dra</ns1:WWW>
+		<ns1:ChargePosition>Должность руководителя ОИВ 19</ns1:ChargePosition>
+		<ns1:Faxes>7(8290)58-28-10</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Акахмхиъащ Сшщбд Неьпенуцвлыы</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>hmwprpjm@bocp.zs</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>3(0752)92-39-91</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>8D297A62-B900-4408-9263-5F1C680F4B68</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 20</ns1:GovernmentName>
+		<ns1:LawAddress>343796 г.Читфуда, хч.Яфшайц, а. 41н</ns1:LawAddress>
+		<ns1:Address>988117 у.Лъчэнйш, фу.Ьщрдъх, д. 35о</ns1:Address>
+		<ns1:ChargeFIO>Пришыьфж Хывтбц Ялчеагщю</ns1:ChargeFIO>
+		<ns1:Phones>(03408)7-06-59; (84962)4-55-75</ns1:Phones>
+		<ns1:Mails>gllak@rigvauh.yb</ns1:Mails>
+		<ns1:WWW>axrf://qtf.jchsr.mf/ffmszqqm/nct</ns1:WWW>
+		<ns1:ChargePosition>Должность руководителя ОИВ 20</ns1:ChargePosition>
+		<ns1:Faxes>(74260)6-01-86</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Ъхыбфжсигыщ Мщшэ Амсазсьтиебт</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>twrgglzdkky49@qcbt.jx</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>(75465)5-39-50</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>FEEC7551-AEC8-4155-9584-6BFFCF8DFDC8</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 21</ns1:GovernmentName>
+		<ns1:LawAddress>360786 к.Лзяжйнл, юз.Щоюшсжчфхямю, 26</ns1:LawAddress>
+		<ns1:Address>952762 щ.Ыибрйкй, ре.Ърнунгпоцзщш, 82</ns1:Address>
+		<ns1:ChargeFIO>Жормйчз Хдусзюфэ Шюющмцрхчбказ</ns1:ChargeFIO>
+		<ns1:Phones>1(85172)8-80-26</ns1:Phones>
+		<ns1:Mails>bqes@pqkjc.ym</ns1:Mails>
+		<ns1:ChargePosition>Должность руководителя ОИВ 21</ns1:ChargePosition>
+		<ns1:Faxes>4(86440)9-99-08</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Гпаюльюгт Ккж Рхыъкцдоюю</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>wwnj32@afbx.sb</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>5(49748)6-39-53</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>A9269F42-4458-4A32-8C48-6F1C81A4257D</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 22</ns1:GovernmentName>
+		<ns1:LawAddress>589481, Йэиавипщлрпорфа вжесн, ы.Аьжпвжю Хъэту, се.Рйищьа, 06</ns1:LawAddress>
+		<ns1:Address>578776, Шеьфяптьмялювде юхфъф, у.Южбшэаз Нышал, ьд.Ышнмдб, 14</ns1:Address>
+		<ns1:ChargeFIO>Шщьщэжл Лдъус Цушкидюую</ns1:ChargeFIO>
+		<ns1:Phones>3(11099)8-14-67</ns1:Phones>
+		<ns1:Mails>peeiygks@pasx.df</ns1:Mails>
+		<ns1:ChargePosition>Должность руководителя ОИВ 22</ns1:ChargePosition>
+		<ns1:Faxes>6(37289)0-25-65;1(19228)3-70-86</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Йпйсдсит Кпфшчю Ищшетйвбэмюд</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>krqpuxrr@hufc.km</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>6(45541)0-54-59</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>EF11E118-A8CC-4DCE-A65C-754B71910218</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 23</ns1:GovernmentName>
+		<ns1:LawAddress>451015, рпп Ыдумфзппцкер, их.Ъшгупгъг, ъ.2э</ns1:LawAddress>
+		<ns1:Address>756639, пич Йцьрианккнщж, нщ.Сесшнишу, п.7ю</ns1:Address>
+		<ns1:ChargeFIO>Цсжврщэд Овухюен Язлаеицкрбаю</ns1:ChargeFIO>
+		<ns1:Phones>(210262)52581</ns1:Phones>
+		<ns1:Mails>Mlk.Tli@mqpjg.df</ns1:Mails>
+		<ns1:WWW>geuxc://bpc.gjyvf.kr/gecyeuvld/bedzs</ns1:WWW>
+		<ns1:ChargePosition>Должность руководителя ОИВ 23</ns1:ChargePosition>
+		<ns1:Faxes>(7623)45388</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Нцжэхюзн Удрсмщбшцц Тотюйдоэ</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>Goo.Ezi@icdah.bs</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>(312117)12496</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>7EB597D2-DB69-4365-94D9-783BD3F99F47</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 24</ns1:GovernmentName>
+		<ns1:LawAddress>893105 ф.Лнгъее, пп.Дърщйэщаю, 7</ns1:LawAddress>
+		<ns1:Address>983475 к.Зърсйх, ащ.Клдыньипй, 0</ns1:Address>
+		<ns1:ChargeFIO>Ввзниюк Ижобрй Джцтюспмзоиымэ</ns1:ChargeFIO>
+		<ns1:Phones>(352)5506701</ns1:Phones>
+		<ns1:Mails>AimrdhvS@cpu.io; larrojivqh@zmd-kvu.mzg.ji; saodhc.yea@nrxha.do</ns1:Mails>
+		<ns1:WWW>ojn.ovzvry.kq</ns1:WWW>
+		<ns1:ChargePosition>Должность руководителя ОИВ 24</ns1:ChargePosition>
+		<ns1:Faxes>(999)2550080</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Въбьшзнфбо Дчйвхюъ Дзчьэфтка</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>EtsvvtaK@ywq.us</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>(642)5321561</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>B2559AA0-B803-443B-92ED-78806BA3C15C</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 25</ns1:GovernmentName>
+		<ns1:LawAddress>804349, Ырйпзюкйър Япющдеуия, Ъфбтхычснялч яцхрг, а.Йэщиабчб, лю.Шфтнеучщф, е.61</ns1:LawAddress>
+		<ns1:Address>736311, Жирягсзныт Чтглтшиье, Оедвгшхшлчтп мьштщ, ъ.Иэфчыащщ, яг.Втлсрсифс, н.40</ns1:Address>
+		<ns1:ChargeFIO>Тлщьръп Пкцявсвэктщ Хищфяъмгы</ns1:ChargeFIO>
+		<ns1:Phones>+0(91407)3-33-45</ns1:Phones>
+		<ns1:Mails>Xksrtahomg.Wtrbzzz@qpmhz.lf</ns1:Mails>
+		<ns1:WWW>fooa://bms.nhmda.vx/tamqleuxwm/jwxdgcdmvz/ihx</ns1:WWW>
+		<ns1:ChargePosition>Должность руководителя ОИВ 25</ns1:ChargePosition>
+		<ns1:Faxes>+1(56568)2-54-46</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Шщдьзб Уцэъйэм Ютщнфысв</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>bcs.cpzjpxthew@atyr.im</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>+6(39358)9-13-84</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>FE4E08AF-4360-4D02-B7C5-7EE1074F218D</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 26</ns1:GovernmentName>
+		<ns1:LawAddress>290313 ьссизлэмлх мгкцдчйнш г.ьзяжюв, ии.фжяъгьбж, 5</ns1:LawAddress>
+		<ns1:Address>808949 дхщюашыагу итклжеэтб щ.ътспнй, ах.лжйпдчхц, 4</ns1:Address>
+		<ns1:ChargeFIO>Кжмсюьыя Ьадълфшдъ Уиэопцюхй</ns1:ChargeFIO>
+		<ns1:Phones>7(69979)91706</ns1:Phones>
+		<ns1:Mails>eopdmi@lwys.kd</ns1:Mails>
+		<ns1:WWW>npma://krm-xqnpav.syvn.tq</ns1:WWW>
+		<ns1:ChargePosition>Должность руководителя ОИВ 26</ns1:ChargePosition>
+		<ns1:Faxes>9(63704)86066</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Лыйнцфмюх Вфсоуэу Ббасуатрцм</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>Yqrmbbp.Pldluktby@isegq.is</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>4(22670)09908</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>5AB29422-0D54-4310-A58A-7F182CA6976B</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 27</ns1:GovernmentName>
+		<ns1:LawAddress>924020 м.о.Йъагшз, сг.Ьщжусьу, 91</ns1:LawAddress>
+		<ns1:Address>291357 з.д.Жзяушх, яъ.Рдхбцър, 14</ns1:Address>
+		<ns1:ChargeFIO>Ьдугсыъз Пьръгл Щйпамчяпчу</ns1:ChargeFIO>
+		<ns1:Phones>3(60889)10178</ns1:Phones>
+		<ns1:Mails>zqkf-kqo@yqas.sw</ns1:Mails>
+		<ns1:ChargePosition>Должность руководителя ОИВ 27</ns1:ChargePosition>
+		<ns1:Faxes>0(87891)71023</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Одьоиус Збрвез Бзъафножфщэ</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>ghbm-dwm@ckpc.ie</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>5(38598)31299</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>836524C5-6679-407C-9FF2-7FEC35F24E0A</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 28</ns1:GovernmentName>
+		<ns1:LawAddress>385471, Йрдхжээгоф Мпмкввджу, з.Нрдхвщэсмв съ.Чммбх, 26</ns1:LawAddress>
+		<ns1:Address>630866, Кшсвцмгомщ Схьлуыыяп, у.Ашровгщврт ел.Бмнжм, 51</ns1:Address>
+		<ns1:ChargeFIO>Мпцящчярч Верэх Ипипишгмбс</ns1:ChargeFIO>
+		<ns1:Phones>7(21290)5-41-97</ns1:Phones>
+		<ns1:Mails>nua-pwzird@yonp.he</ns1:Mails>
+		<ns1:WWW>acs.idqgx.ts/qeztlvdnbr/pby</ns1:WWW>
+		<ns1:ChargePosition>Должность руководителя ОИВ 28</ns1:ChargePosition>
+		<ns1:Faxes>2(89143)1-52-27</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Мяррщзэвц Махтнъ Жххфгдиюцаэ</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>vkb-nfauqi@mlwe.vp</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>8(60604)4-77-26</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>1E30214F-BA78-4BF3-9F4C-86C133827A4C</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 29</ns1:GovernmentName>
+		<ns1:LawAddress>988564, х.Пжыъъз, ял.Ьсцяифнйл, 47</ns1:LawAddress>
+		<ns1:Address>287557, е.Бвидщб, мр.Нкцясужгр, 84</ns1:Address>
+		<ns1:ChargeFIO>Йщпбшщвеч Тквбнжю Аейшхлфъюшрни</ns1:ChargeFIO>
+		<ns1:Phones>9(58887)0-08-39</ns1:Phones>
+		<ns1:Mails>uso.fwneacp@lybz.qp</ns1:Mails>
+		<ns1:WWW>yzhvz://myd.fayjb.xa/nrtnkqmi/lsnykk</ns1:WWW>
+		<ns1:ChargePosition>Должность руководителя ОИВ 29</ns1:ChargePosition>
+		<ns1:Faxes>5(13677)0-45-35</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Жъгквп Дэаиышх Интйдлаиц</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>iuwzufy_srigll@mgsx.ud</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>3(02824)7-65-58</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>78D9351C-8F96-437B-AFAC-8A74F351FE5D</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 30</ns1:GovernmentName>
+		<ns1:LawAddress>781588 ы.Йгьфм, щю.Бфппэй, м.1</ns1:LawAddress>
+		<ns1:Address>508410 ю.Ьбевч, зс.Ущбстф, а.0</ns1:Address>
+		<ns1:ChargeFIO>Цъикэфс Льссщы Сццящфйэт</ns1:ChargeFIO>
+		<ns1:Phones>(47396)41228</ns1:Phones>
+		<ns1:Mails>srprpmhq@dhsf.qm</ns1:Mails>
+		<ns1:ChargePosition>Должность руководителя ОИВ 30</ns1:ChargePosition>
+		<ns1:Faxes>(07341)91110</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Шаэлжий Ргорюв Ебхысищлупз</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>hhavik@kqeu.ju</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>(40662)69570</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>121BE561-5D03-4CBA-A821-A1876A6136D2</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 31</ns1:GovernmentName>
+		<ns1:LawAddress>982419, х.Гшхьбс, дб.Хйчжсучджущлш, 06</ns1:LawAddress>
+		<ns1:Address>401904, б.Мвдвяз, фп.Япзфдчдгашйкх, 50</ns1:Address>
+		<ns1:ChargeFIO>Йьдишщбя Ммазрз Ляддэммщмсх</ns1:ChargeFIO>
+		<ns1:Phones>(224)0976724; (422)3623568</ns1:Phones>
+		<ns1:Mails>czzgo@vhqpk.yi</ns1:Mails>
+		<ns1:WWW>pju.yjvtr.fk</ns1:WWW>
+		<ns1:ChargePosition>Должность руководителя ОИВ 31</ns1:ChargePosition>
+		<ns1:Faxes>(990)8252354</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Цвсщмтююог Ьмбшнья Ьхрютнзффш</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>Ztdmcdui.Cqifmmancn@kstcr.su</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>(606)5707830</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>22E5709E-4EC8-46C6-9033-B41E352A89B7</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 32</ns1:GovernmentName>
+		<ns1:LawAddress>556042 я. Хшюн, фэ.Шхфефнхюь, 06</ns1:LawAddress>
+		<ns1:Address>641804 г. Ълфб, зо.Зыькбаалы, 72</ns1:Address>
+		<ns1:ChargeFIO>Сряьхсжъчы Дгбвсон Елхриыннзссй</ns1:ChargeFIO>
+		<ns1:Phones>6(51126)0-74-93;3(87550)5-81-73</ns1:Phones>
+		<ns1:Mails>lozjnont@pjdq.mv</ns1:Mails>
+		<ns1:WWW>cpujd://hys.mtbdv.tp/pcsk/dbal</ns1:WWW>
+		<ns1:ChargePosition>Должность руководителя ОИВ 32</ns1:ChargePosition>
+		<ns1:Faxes>2(76104)5-38-45</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Рэъгумегшг Вщгюх Ккугьтпигш</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>mstucbo@njjh.rs</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>1(58467)1-42-84</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>B79292B1-1A22-47A4-9B93-B7A2D85EB8BC</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 33</ns1:GovernmentName>
+		<ns1:LawAddress>087286, ЪЪ, Едфвяяйй экзпэ, п.Ибылтй, кц.Фрузыньрча, а. 92</ns1:LawAddress>
+		<ns1:Address>322579, ШФ, Лыксучсш мяяыс, у.Шуянйд, ср.Йикзлтзапц, ы. 60</ns1:Address>
+		<ns1:ChargeFIO>Дъюэъъф Нтуеэхшээ Рыыпитлыщж</ns1:ChargeFIO>
+		<ns1:Phones>(71553)61015, (30757)30988</ns1:Phones>
+		<ns1:Mails>zwegkq-dnh@wqtv.qr</ns1:Mails>
+		<ns1:WWW>ufnjc://xub.nkbfp.gb/yfgbtc/ixac7257.kux/zpu</ns1:WWW>
+		<ns1:ChargePosition>Должность руководителя ОИВ 33</ns1:ChargePosition>
+		<ns1:Faxes>(94548)62611, (39271)67308</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Тщьзсв Мнимщзй Игрддхшшеэ</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>mbxjtw-mno@ucmq.qg</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>(42998)65538</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>A88EA84E-9736-4552-A485-BA736D98DB0A</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 34</ns1:GovernmentName>
+		<ns1:LawAddress>626486 ж.е.Эчхтньаег кс. Тшщатэвэ, 4</ns1:LawAddress>
+		<ns1:Address>017879 ы.х.Усиыъснав ьь. Ояхыдсвл, 9</ns1:Address>
+		<ns1:ChargeFIO>Мшфудсжкер Бэмюб Летцюзъгщ</ns1:ChargeFIO>
+		<ns1:Phones>(88409)9-40-48</ns1:Phones>
+		<ns1:Mails>ivjqcb@yikr.yq;vuekhnbd@zzzm.qs</ns1:Mails>
+		<ns1:WWW>hpse://oqi.flxnd.ce/znxsjlnsd/xpw</ns1:WWW>
+		<ns1:ChargePosition>Должность руководителя ОИВ 34</ns1:ChargePosition>
+		<ns1:Faxes>(84815)3-06-58, (92202)7-56-98</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Зсшоэъжй Хвтаьчн Тгвгьышйжамт</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>uekhjfbb@apgj.jk</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>(94033)5-94-76</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>38832B46-968E-4EF9-B4BE-C3E505081FF9</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 35</ns1:GovernmentName>
+		<ns1:LawAddress>281077, Щцлылюуэээ Опшыщсъцц, Твшбнэцшааяре лхсдо,  я.п.ою. Щийбэой Пщбу, мс.Зйцайдвмй, 72</ns1:LawAddress>
+		<ns1:Address>234851, Мошдещлатт Пзршусйьв, Бкееснуууыжек эшцмч, ф.а.тп. Ъппнргб Ьчдс, хц.Ьсршмняд,65</ns1:Address>
+		<ns1:ChargeFIO>Шгфйгюгмынъэ-Яэлшутгш Чзнюхя Ьыхклчмйеъ</ns1:ChargeFIO>
+		<ns1:Phones>3(40417)9-24-13</ns1:Phones>
+		<ns1:Mails>khvuoriee@xope.sy</ns1:Mails>
+		<ns1:ChargePosition>Должность руководителя ОИВ 35</ns1:ChargePosition>
+		<ns1:Faxes>4(24379)3-27-28</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Аейсхзиэ Бмнюпщп Юцюсшылбх</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>gmxokdeqz@awgw.tr</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>4(04071)4-71-92</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>08999C06-EF49-475E-B255-C4761A89F452</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 36</ns1:GovernmentName>
+		<ns1:LawAddress>563035 u.Эъкдщштг Цджтзю, бл.Щпхоппдфя.07</ns1:LawAddress>
+		<ns1:Address>265957 t.Юякчцкфх Ижлрзъ, ее.Эбкышрютм, 43</ns1:Address>
+		<ns1:ChargeFIO>Йвфиегюхо Ьтюья Плйьшцьъм</ns1:ChargeFIO>
+		<ns1:Phones>5(241)2484724</ns1:Phones>
+		<ns1:Mails>obmalnmtg3420@fj.yw</ns1:Mails>
+		<ns1:WWW>nvw.xse-wmz.dqxbqnh.dy</ns1:WWW>
+		<ns1:ChargePosition>Должность руководителя ОИВ 36</ns1:ChargePosition>
+		<ns1:Faxes>9(288)7157012</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Ньдъвнбиеф Ъетю Асазкмут</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>gwodz@zhtwac.wu</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>8(859)3640920</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>0DECEF8D-21D9-428D-B19D-C554BA2FD28A</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 37</ns1:GovernmentName>
+		<ns1:LawAddress>556794 т.Орпзчнрст, эи.Иемъжб, 58</ns1:LawAddress>
+		<ns1:Address>790171 а.Аздурднщс, рз.Сщгшаз, 85</ns1:Address>
+		<ns1:ChargeFIO>Йърфьннц Ещпруъэ Щуваакрруя</ns1:ChargeFIO>
+		<ns1:Phones>9(15568)17560</ns1:Phones>
+		<ns1:Mails>sjv-bmnsv@kmcb.st</ns1:Mails>
+		<ns1:WWW>vga.75-7-51.zlmupdr.hc</ns1:WWW>
+		<ns1:ChargePosition>Должность руководителя ОИВ 37</ns1:ChargePosition>
+		<ns1:Faxes>3(42357)87481</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Мнчоувйьомс Шмкивлн Зэксейшывм</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>flx-ngusr@gfsg.uc</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>8(71489)44399</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>C52EBD25-C57C-4636-A120-CB6BE66E0C15</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 38</ns1:GovernmentName>
+		<ns1:LawAddress>926708 й.Лйдфиюдх, цс.Кюевддщяд, 62</ns1:LawAddress>
+		<ns1:Address>136339 ц.Эеуфсжър, ял.Яьосзьбдй, 05</ns1:Address>
+		<ns1:ChargeFIO>Щчщвейжяэув Дуюсн Эещмклдру</ns1:ChargeFIO>
+		<ns1:Phones>+5(576)3921847</ns1:Phones>
+		<ns1:Mails>snn.ejr@tkqbal.vt</ns1:Mails>
+		<ns1:WWW>ljq.bbojgqitwh.urldkty.qa</ns1:WWW>
+		<ns1:ChargePosition>Должность руководителя ОИВ 38</ns1:ChargePosition>
+		<ns1:Faxes>+8(281)7598225</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Оцтълщэя Крнреи Зхюшуцкхко</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>drl.fit@kezah.vc</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>+8(568)7138702</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>3EA7ECA6-2320-4E53-9936-CCDD9C85596E</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 39</ns1:GovernmentName>
+		<ns1:LawAddress>980648  ЖФ,  Опдесо-Ььбзрощылн йшпхк, чзж  Яюиомху Куеюн, мл.Юзещкд 84</ns1:LawAddress>
+		<ns1:Address>230999 ЪН,  Ацуцрг-Чгщаашшсхс ьдгбг, ззя  Пхкпшгр Дбгфд, ио. Ьбщщбм 85</ns1:Address>
+		<ns1:ChargeFIO>Ъпвсчод Лщоялй Ълфнлбыцыб</ns1:ChargeFIO>
+		<ns1:Phones>(77766)2-03-43</ns1:Phones>
+		<ns1:Mails>Dcq.Ceb@xavcv.hk</ns1:Mails>
+		<ns1:WWW>scfk://igc.mrygv.mb/a_pvsfd/tftfl</ns1:WWW>
+		<ns1:ChargePosition>Должность руководителя ОИВ 39</ns1:ChargePosition>
+		<ns1:Faxes>(5113)2-86-25</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Ъаълйрапж Хоый Гьщмзыючиг</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>Lhtri.Rvjqujvak@npwir.lw</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>6(40505)6-03-00</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>254CEEFD-B5B1-4C85-87FE-D237917AFA6F</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 40</ns1:GovernmentName>
+		<ns1:LawAddress>422787 Ушфефужлды Юербзжжгш,  т.Жиюцбъап, пр. 26 Скчухю, 61</ns1:LawAddress>
+		<ns1:Address>049635 Щжыяувжуиу Бывхдпаяу,  я.Дзглйзуы, уь. 93 Буэпък, 68</ns1:Address>
+		<ns1:ChargeFIO>Пюждецшц Нвшсеъобк Яцъзтъююик</ns1:ChargeFIO>
+		<ns1:Phones>8(55022)80462</ns1:Phones>
+		<ns1:Mails>ulzovi@enpwkh.ru</ns1:Mails>
+		<ns1:WWW>ghbb://zzu.visao.qb/dehxaaf/Uortpgr/ahn</ns1:WWW>
+		<ns1:ChargePosition>Должность руководителя ОИВ 40</ns1:ChargePosition>
+		<ns1:Faxes>1(95106)35728</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Цхввхявюае Ехоьсфц Ънгекыних</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>ilxrsn@dxhsia.di</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>4(62772)39772</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>A0B300FE-FABE-4053-B14F-D942AE810A3F</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 41</ns1:GovernmentName>
+		<ns1:LawAddress>395746 о.Ъ.Лпые, эд.Ьпулэдтф, 61п</ns1:LawAddress>
+		<ns1:Address>019525 в.т.щцбц, эн.лнюшлщэч, 14т</ns1:Address>
+		<ns1:ChargeFIO>Еппщгшп изичзш шьцезюъм</ns1:ChargeFIO>
+		<ns1:Phones>5(09115)0-03-89</ns1:Phones>
+		<ns1:Mails>xaksofy@xtmsmu.ys</ns1:Mails>
+		<ns1:ChargePosition>Должность руководителя ОИВ 41</ns1:ChargePosition>
+		<ns1:Faxes>0(62407)2-95-89</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Уужиефымм хпяжгх эяъмяяреуч</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>btrznrb@kkqfuk.wi</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>1(88136)2-64-76</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>89B68E27-18D6-41CA-81D2-DA4C4D1BD919</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 42</ns1:GovernmentName>
+		<ns1:LawAddress>600773 ж.пйгеца, сд.Эсэъсыефт, 225</ns1:LawAddress>
+		<ns1:Address>684390 ж.мзгншр, хю.Веяжыгтвй, 317</ns1:Address>
+		<ns1:ChargeFIO>Хэксдчт Чсъюи Бохырачфйгнд</ns1:ChargeFIO>
+		<ns1:Phones>(84952)31329</ns1:Phones>
+		<ns1:Mails>lye_rigfic@bkyk.ha</ns1:Mails>
+		<ns1:WWW>zlpq://tsv.nggrn.yi/aohiyg/ypl</ns1:WWW>
+		<ns1:ChargePosition>Должность руководителя ОИВ 42</ns1:ChargePosition>
+		<ns1:Faxes>(26329)70951</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Ъъмьлювоеяе Ямсм Уълнсувьыкяб</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>yuljip-zu@jbtl.ev;</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>(02085)69698</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>9C6FA6A4-AC8D-485A-A5A0-DDE3DDA3998F</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 43</ns1:GovernmentName>
+		<ns1:LawAddress>634099, оцые  Зъеимцщ Хсюооьь, Япввхтэйв чсиевгр, кше  7</ns1:LawAddress>
+		<ns1:Address>031874, ыньд Поеэкач Ьювмъвй, Бтхкхъсшэ ибтадзж, рсл 1</ns1:Address>
+		<ns1:ChargeFIO>Нбсдлчш Сыцмуч Пьзазжыхз</ns1:ChargeFIO>
+		<ns1:Phones>9(54039)24067</ns1:Phones>
+		<ns1:Mails>nlxy@jqbejzu.zj</ns1:Mails>
+		<ns1:WWW>jdlim://hho.jfjgp.vv/fhxtqasx/czagtvwp</ns1:WWW>
+		<ns1:ChargePosition>Должность руководителя ОИВ 43</ns1:ChargePosition>
+		<ns1:Faxes>0(95123)71252</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Дсхяяш Крюыии Иаошъзьъфю</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>qmjx@dpwvqgd.vy</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>1(61407)02802</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>B50778E8-2A03-4681-9EA7-E5BF00817CD8</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 44</ns1:GovernmentName>
+		<ns1:LawAddress>985802, СН, Учбжсвузйлж цжлбщ, х.ъ.л. Ьцщямамш, хв.Впащыуйоц, 4</ns1:LawAddress>
+		<ns1:Address>086085, ЕЪ, Йцрдяуоаяпф пззиу, е.с.у. Рыьютыйо, фу.Брмшчдщзд, 8</ns1:Address>
+		<ns1:ChargeFIO>Злргсслю Лфбцф Ыюубефчфбх</ns1:ChargeFIO>
+		<ns1:Phones>(451)21-34-0-61,(277)73-76-1-09</ns1:Phones>
+		<ns1:Mails>rvdl_cecg@ikud.gm</ns1:Mails>
+		<ns1:WWW>rmib://thk.czmbt.gt/wgsgpfnf/aysi731506.bqt</ns1:WWW>
+		<ns1:ChargePosition>Должность руководителя ОИВ 44</ns1:ChargePosition>
+		<ns1:Faxes>(451)08-70-8-70</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Вркбщштпо Бычжрс Херевъдсб</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>relaola-cjainkukoc@svtj.ow</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>(965)25-23-1-26</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>F647C344-E8B3-4707-8C70-E85CA75BB9E4</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 45</ns1:GovernmentName>
+		<ns1:LawAddress>585978о.и.ю.Аодгдт-Ягпзюрь,рр.Ыиусэк,п.01</ns1:LawAddress>
+		<ns1:Address>506604ш.э.з.Ьйэщсж-Ьдукрэл,фн.Йоьсех,н.71</ns1:Address>
+		<ns1:ChargeFIO>Сяружли Неьафз Бпхцйыжлйе</ns1:ChargeFIO>
+		<ns1:Phones>6(81278)79-672</ns1:Phones>
+		<ns1:Mails>lehpyyz.zhm@ilkfgqi.qs</ns1:Mails>
+		<ns1:WWW>ect.qsousyvo.tw</ns1:WWW>
+		<ns1:ChargePosition>Должность руководителя ОИВ 45</ns1:ChargePosition>
+		<ns1:Faxes>0(45709)23-407</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Вшэрэасг Шаигхл Дцажлюеся</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>fecdcns.nrxcfr@bjwj.pr</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>2(88243)23-459</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>0ED6AAF6-953A-4083-8B0D-E998B42A9563</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 46</ns1:GovernmentName>
+		<ns1:LawAddress>355681, СС, Иинучюьаьщго бхэааюзйщлсоъ ммаиш, н.ц.л. Рширтбж, мв. Нчтеюж,ш.69</ns1:LawAddress>
+		<ns1:Address>304752, РЕ, Гслпцгсэякпз щзсяцшюрчсфсю кцрйа, р.в.м. Аиопфзк, ыр. Ьнйпыэ,в.30</ns1:Address>
+		<ns1:ChargeFIO>Жсюечьп Ядъи Юхкзтизы</ns1:ChargeFIO>
+		<ns1:Phones>(829)921-08-93</ns1:Phones>
+		<ns1:Mails>jff-uknlhca@zhsawal.rj</ns1:Mails>
+		<ns1:WWW>xoo.kjgxt.em-uogdoqo-lgwjohw.wh</ns1:WWW>
+		<ns1:ChargePosition>Должность руководителя ОИВ 46</ns1:ChargePosition>
+		<ns1:Faxes>(654)462-47-92</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Сохжокк Ияюзкеьб Юыъсбяие</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>qgqmntb.m@bpjbq.kav</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>(344)639-21-20</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>20A6EFF4-6C71-4E8E-AB2A-E9FA12B36468</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 47</ns1:GovernmentName>
+		<ns1:LawAddress>601041 д.Ънщоъа, ха.Я.Дбьчшмье, 14</ns1:LawAddress>
+		<ns1:Address>149445 ы.Юоэджс, ыу.Ю.Снытлеэь, 74</ns1:Address>
+		<ns1:ChargeFIO>Ьтлштзг Ъшвъмтм Язшьбцйылплс</ns1:ChargeFIO>
+		<ns1:Phones>(303051)5-86-83</ns1:Phones>
+		<ns1:Mails>vnr_klavpxnn@ihyi.eh</ns1:Mails>
+		<ns1:ChargePosition>Должность руководителя ОИВ 47</ns1:ChargePosition>
+		<ns1:Faxes>(425906)5-65-97</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Хрцодщуйй Ыпюнфбевс Ррицрцбц</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>pbw_yxytcjbv@ahtt.jo</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>(299)632-76-32</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>21399228-89D5-478A-AA5D-EA3232CE0B79</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 48</ns1:GovernmentName>
+		<ns1:LawAddress>202099 й.Ясжфъо, йш.Пепыяс, 58</ns1:LawAddress>
+		<ns1:Address>074846 ю.Ляфюащ, ск.Мцсърц, 64</ns1:Address>
+		<ns1:ChargeFIO>Хшсддчш Эоегф Ььлзнцъхъкър</ns1:ChargeFIO>
+		<ns1:Phones>(05515)04279</ns1:Phones>
+		<ns1:Mails>riy_tky@iomo.wf</ns1:Mails>
+		<ns1:WWW>21-0-30.pkhdueq.fd</ns1:WWW>
+		<ns1:ChargePosition>Должность руководителя ОИВ 48</ns1:ChargePosition>
+		<ns1:Faxes>(86993)37778</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Ьвъкгфс Ъзэжшг Вхэырочарн</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>iml_glnlg@htzq.wz</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>(93272)83374</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+	<ns1:rbd_Governments>
+		<ns1:GovernmentID>5791C56E-80A3-40DC-A39D-FDAAAF1CDF17</ns1:GovernmentID>
+		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:GovernmentCode>7</ns1:GovernmentCode>
+		<ns1:GovernmentName>Полное наименование ОИВ 49</ns1:GovernmentName>
+		<ns1:LawAddress>118155 м.Ящэяэойхрщ, щд.Ьахзядэдрюз, у.1</ns1:LawAddress>
+		<ns1:Address>724626 я.Щжьхбизырд, ае.Гбмршяпэфдо, п.8</ns1:Address>
+		<ns1:ChargeFIO>Кбоклбмявэ Оаьсп Еъуихчича</ns1:ChargeFIO>
+		<ns1:Phones>9(6496)24-90-88</ns1:Phones>
+		<ns1:Mails>wknxv@hwxw.gf</ns1:Mails>
+		<ns1:ChargePosition>Должность руководителя ОИВ 49</ns1:ChargePosition>
+		<ns1:Faxes>5(2954)55-15-95</ns1:Faxes>
+		<ns1:GType>0</ns1:GType>
+		<ns1:SpecialistFIO>Уъухшк Щйкцбщй Дбыоъбуюмтмц</ns1:SpecialistFIO>
+		<ns1:SpecialistMails>enha.zdsyawy.15@mxoh.js</ns1:SpecialistMails>
+		<ns1:SpecialistPhones>2(1212)499940</ns1:SpecialistPhones>
+		<ns1:DeleteType>0</ns1:DeleteType>
+		<ns1:CreateDate>2014-12-99 11:42:42.000</ns1:CreateDate>
+		<ns1:UpdateDate>2014-12-99 11:42:42.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-99 11:42:42.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-99 11:42:42.000</ns1:ImportUpdateDate>
+		<ns1:TimeZoneId>NULL</ns1:TimeZoneId>
+	</ns1:rbd_Governments>
+</ns1:GIADBSet>

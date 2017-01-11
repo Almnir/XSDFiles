@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns1:GIADBSet xmlns:ns1="http://www.rustest.ru/giadbset">
+	<ns1:rbd_Areas>
+		<ns1:AreaID>41FA6340-8BED-4322-A2AA-064D6F897818</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 1</ns1:AreaName>
+		<ns1:Address>188646 ж.Гхфхямул, шв.Мхалчцыйз, 59</ns1:Address>
+		<ns1:ChargeFIO>Ммкцыжвс Тэвеямегч Хфмщжзрьър</ns1:ChargeFIO>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>0DC0E82B-48F1-4229-BAC2-0E4EF4682D37</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 2</ns1:AreaName>
+		<ns1:Address>556144 н.Аьдяайюднэфу, эъ.Нрмйсешаб, 27</ns1:Address>
+		<ns1:ChargeFIO>Жсхогм Жсквагсп Щыфссйчжхч</ns1:ChargeFIO>
+		<ns1:Mails>ikm@fgbasal.udu.guhfyduvu.pc</ns1:Mails>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>F27F036A-3C0F-4E37-8F15-0EF4612D1661</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 3</ns1:AreaName>
+		<ns1:Address>703926 г.Йгъьящжфп, эа.Пчещкл, 17</ns1:Address>
+		<ns1:ChargeFIO>Чзззхиг Чоысэ Кюаыэчльь</ns1:ChargeFIO>
+		<ns1:Phones>0(7-83-24)6-38-22, 7-07-89</ns1:Phones>
+		<ns1:Mails>fmy-nu@mfaprnl.za</ns1:Mails>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>4B7CD964-7C05-4B43-98B5-11E580769930</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 4</ns1:AreaName>
+		<ns1:Address>452143 м.Оябтнъхз Дсдйпт, йн.Ютбдхнйм, 63</ns1:Address>
+		<ns1:ChargeFIO>Ищжцингфтеч Еыемш Ыечкзжюго</ns1:ChargeFIO>
+		<ns1:Mails>lxh@sodjp.tni.epioadoag.di</ns1:Mails>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>543C9049-4E94-41FD-9978-11F0D5E1EA2A</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 5</ns1:AreaName>
+		<ns1:Address>267755 а.Аждыпь, тк.Аьоляотнух, 61</ns1:Address>
+		<ns1:ChargeFIO>Зэъхшэв М.У.</ns1:ChargeFIO>
+		<ns1:Mails>zea@eqhhwj.nls.mhzoojayt.uq</ns1:Mails>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>10C73703-2866-4C8E-BC8D-19CDA9489497</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 6</ns1:AreaName>
+		<ns1:Address>862809, ЪЭ, Гхакфэзтпйчыф сенмъ, в. Чй.Япйэпръшц, шэ. Нхйэглаэйдл, б.50</ns1:Address>
+		<ns1:ChargeFIO>Бкзобъич Аоиыюнзю Сээшивсгчьис</ns1:ChargeFIO>
+		<ns1:Mails>ixcnmbabv_fgl@ukwhwdd.nh</ns1:Mails>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>ECBC5B67-B42B-4B97-B121-221FDF6399A9</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 7</ns1:AreaName>
+		<ns1:Address>306864 вшя Холелу, нс.Ввръья, 68</ns1:Address>
+		<ns1:ChargeFIO>Ыкъзээмводк Игьфбяо Дгщяшцйыат</ns1:ChargeFIO>
+		<ns1:Mails>gia@jlgbgnr.wag.znkasxhru.ao</ns1:Mails>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>E410D2D7-8664-4FC9-B42D-2CA997F51C97</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 8</ns1:AreaName>
+		<ns1:Address>335584 Эичышъясму Члягдлфит, Жпрхтъчмд щдднь м.Щчъэышз Сбес, хх.Шяббхулцк, 78</ns1:Address>
+		<ns1:ChargeFIO>Снфаюапн Меьуц Йъъдкшскб</ns1:ChargeFIO>
+		<ns1:Mails>sbt@ttkdb.vul.gurdfnsgv.cz</ns1:Mails>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>50DD099F-7650-4582-90B2-33F7A071B735</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 9</ns1:AreaName>
+		<ns1:Address>344178 т.Щво.Епцьк, щг.Н.Нщбфжн, 73</ns1:Address>
+		<ns1:ChargeFIO>Бгэзкц Й.Ж.</ns1:ChargeFIO>
+		<ns1:Mails>drqdmfvg@zisd.md</ns1:Mails>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>84BB6AA7-C939-4524-B518-3A67F2D5B43F</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 10</ns1:AreaName>
+		<ns1:Address>736667 Йвчбээцкэн Дыкхежнаь, й. Ынхкнячхцн Цзвуа, жу. Г. Фэсаьйц, 66</ns1:Address>
+		<ns1:ChargeFIO>Щэдджмус Ноелчу Оюейаььлфжж</ns1:ChargeFIO>
+		<ns1:Mails>xthjl-pfy@trsqlk.gv</ns1:Mails>
+		<ns1:WWW>dcps://fxcuj.cvedk.ld/ipo/quxbv.nik</ns1:WWW>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>C91C2D98-6597-4F5F-8079-3CC46F094864</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 11</ns1:AreaName>
+		<ns1:Address>766398 э.Ыжфжнг, ст.Жтщиэб, 33</ns1:Address>
+		<ns1:ChargeFIO>Зюфаоюувр Зйэйгфтфн Бхвэжуус</ns1:ChargeFIO>
+		<ns1:Phones>2(64271)7-22-90</ns1:Phones>
+		<ns1:Mails>izc_zqrqqoyd@iomn.qv</ns1:Mails>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>94D38B82-8150-40AA-A7DD-44372B05A32A</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 12</ns1:AreaName>
+		<ns1:Address>118938, Пьцьоюнтйь Ъьчйухуыи, Эцроелйютчси вчтшв, й. Чючацхфйо, цм. Енхдщуь, 13</ns1:Address>
+		<ns1:ChargeFIO>Срюкцдти Яюэъэ Ттзймувдкч</ns1:ChargeFIO>
+		<ns1:Mails>bqz@tuwutd.lfp.pirkjtkgf.za</ns1:Mails>
+		<ns1:WWW>tjb.yfnhru.xo</ns1:WWW>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>943A3C4C-C806-4921-BC8E-4CA64175DEBD</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 13</ns1:AreaName>
+		<ns1:Address>654727 г.Щгыишм, дг.Ощтиъмхчдсярз, 72</ns1:Address>
+		<ns1:ChargeFIO>Дуеяхжцййн Ефшяшср Млоъзссреп</ns1:ChargeFIO>
+		<ns1:Phones>(872)6545386</ns1:Phones>
+		<ns1:Mails>Cickirip.Pqcxnkazrv@rcfcx.wr</ns1:Mails>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>FDD0A908-B466-42EF-B5CA-4DC4F4E4C609</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 14</ns1:AreaName>
+		<ns1:Address>055257 оюъ.Рьэсрбс Явфя, бх.А.Эрфжсряг, 32</ns1:Address>
+		<ns1:ChargeFIO>Зяфймтар Дщецо Лэзщбехюькдэхз</ns1:ChargeFIO>
+		<ns1:Mails>xnc@pcou.pvh.uukhcwzjd.sy</ns1:Mails>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>4A8FA710-750A-4996-9A0F-516B4B9E825C</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 15</ns1:AreaName>
+		<ns1:Address>357307 ю.Веямщп, ъж.Тнлъъъч, ъ.12</ns1:Address>
+		<ns1:ChargeFIO>Хдпйпаъяа Вйгзгам Ехдьяызтеузца</ns1:ChargeFIO>
+		<ns1:Phones>8(933)2-13-87</ns1:Phones>
+		<ns1:Mails>qxi.yuhuvst@lbyg.cx</ns1:Mails>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>EFA9B4A4-28F8-4419-B167-53A9094C3435</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 16</ns1:AreaName>
+		<ns1:Address>984809 ч.Знзтвсч, вч.Щгвножпсо, 32</ns1:Address>
+		<ns1:ChargeFIO>Ньйшчээаям Чйпряю Ъзъксатюхдуртг</ns1:ChargeFIO>
+		<ns1:Mails>ekx@nzfin.hqg.rvmwviefq.fw</ns1:Mails>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>A74F834A-F171-452B-B5B1-568160CA3D84</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 17</ns1:AreaName>
+		<ns1:Address>590553 е.Игидуи, хц. Кфгхюоюбтт, 4г</ns1:Address>
+		<ns1:ChargeFIO>Эжуеэчзы Мщкэя Тбксчмуссн</ns1:ChargeFIO>
+		<ns1:Mails>jftjiap@ahoj.pm</ns1:Mails>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>2C1D1B1C-299D-4F9F-85A4-57DC1E117FC2</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 18</ns1:AreaName>
+		<ns1:Address>056030 з.Ъъвиск, шз. Мэцаейхоэс, 2</ns1:Address>
+		<ns1:ChargeFIO>Мьшиъкпъцчнд Кюъфущж Аьпгжъогю</ns1:ChargeFIO>
+		<ns1:Mails>YLssixponfjmrf@egoaxq.cr</ns1:Mails>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>8EF4BA71-3438-4DCD-B3A7-58F86CD00AB1</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 19</ns1:AreaName>
+		<ns1:Address>992873 ь.Йвдяъетро,зж. Пшркве, з.00</ns1:Address>
+		<ns1:ChargeFIO>Жюйллтыл Тыюючщ Сдюмьвфн</ns1:ChargeFIO>
+		<ns1:Mails>hxr@wyqdhe.rna.hagnnqylb.hf</ns1:Mails>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>CD2ADFFA-9019-4294-A2E6-5D55BE311503</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 20</ns1:AreaName>
+		<ns1:Address>527398 у.ъ.Ьыыюуу, оу.Бзпцзлш, 55</ns1:Address>
+		<ns1:ChargeFIO>Цнуиунхжм Рейип Руеъкотфц</ns1:ChargeFIO>
+		<ns1:Mails>wigf@ennjgc.qu</ns1:Mails>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>B97EADF7-2586-461A-9166-5DED4914D4CD</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 21</ns1:AreaName>
+		<ns1:Address>136368, ОТ, б.Щмжиыпсец, яу.Ащлфцн, р.525</ns1:Address>
+		<ns1:ChargeFIO>Угсихмхрз Йжжгл Уйехшамэ</ns1:ChargeFIO>
+		<ns1:Phones>8(018)5-23-24</ns1:Phones>
+		<ns1:Mails>vuoyh84@sqkgh.nru</ns1:Mails>
+		<ns1:WWW>ejb.aaicfayhw.us</ns1:WWW>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>61260256-6C1F-455B-99F8-624441EE1AD7</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 22</ns1:AreaName>
+		<ns1:Address>031397, з.Лфывш, еж. Свужшйищ, 34</ns1:Address>
+		<ns1:ChargeFIO>Кзсжпупдлзетщ Звечи Хйооьыоде</ns1:ChargeFIO>
+		<ns1:Mails>nqh@pytzn.umc.fmjcwywyw.af</ns1:Mails>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>24FC2BA2-41A4-4DFE-937A-6B018F8D4CBE</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 23</ns1:AreaName>
+		<ns1:Address>341676 х.И.Фепщхйм, эи.Зсиъзоуфо Чллцаоч, 02</ns1:Address>
+		<ns1:ChargeFIO>Чаэяызк Жщягб Мэлжссоащчжх</ns1:ChargeFIO>
+		<ns1:Mails>xgd@whzjenn.oiz.afogcqoki.bi</ns1:Mails>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>E79E4C79-81FA-42D2-8171-6D4A03AABDC6</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 24</ns1:AreaName>
+		<ns1:Address>124572 й.Псцяля, ящ.Фгфрмйну, 8</ns1:Address>
+		<ns1:ChargeFIO>Чугсдюишм Уъэшягш Ечшаихячжй</ns1:ChargeFIO>
+		<ns1:Mails>vzp@jib.zbq.gsegqiscn.ms</ns1:Mails>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>8E5C9CE3-8734-47CB-B67F-753EAD317036</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 25</ns1:AreaName>
+		<ns1:Address>289734 м.К.Здъеш, ъе.Чтмщйч, 36</ns1:Address>
+		<ns1:ChargeFIO>Ажзпхзл Гклтщ Пдщгцвърк</ns1:ChargeFIO>
+		<ns1:Mails>qxe@bzwuj.ubm.didorbgzh.xa</ns1:Mails>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>3CA5D121-5C3F-4FB7-B0D6-7ECE7C5DEF43</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 26</ns1:AreaName>
+		<ns1:Address>228045 ы.Пыьщзн, мъ.Эддгпралб, 09</ns1:Address>
+		<ns1:ChargeFIO>Кениспы Ефжйеч Хочълчт</ns1:ChargeFIO>
+		<ns1:Mails>jlbuel@fr.uh</ns1:Mails>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>7684529F-B0C1-427F-B6A1-808125B11E4F</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 27</ns1:AreaName>
+		<ns1:Address>818560 ц. Оьшгхяаюыоци, яф. Яцлръккчдбй, 71ы</ns1:Address>
+		<ns1:ChargeFIO>Дщцмучтш Жьэб Фюьмчзсжг</ns1:ChargeFIO>
+		<ns1:Mails>dmdamt5@nbld.kv</ns1:Mails>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>5FC5CC19-02C1-42DC-AA6C-821D289F69C3</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 28</ns1:AreaName>
+		<ns1:Address>726321 ю.Ойззшжрзырч, жг.Ъьэиюхлй, 4</ns1:Address>
+		<ns1:ChargeFIO>Щжыбзяржоф Крцда Яэкэзовяьсм</ns1:ChargeFIO>
+		<ns1:Mails>par@jkaqsrontoe.dby.kosdcpwxg.gd</ns1:Mails>
+		<ns1:WWW>rmm.liqarwwjzdv.xl</ns1:WWW>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>A3A2F8B9-32E7-46DA-87E3-82CC93A937CE</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 29</ns1:AreaName>
+		<ns1:Address>230252, э. Дфждяс, еъ. Юъзффркдь, ю.747</ns1:Address>
+		<ns1:ChargeFIO>Яиьъляяплги Илек Мыржмнаииалп</ns1:ChargeFIO>
+		<ns1:Mails>bhrydiqo-ektned@nfpkwsy.xd</ns1:Mails>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>1FF31F33-7BA2-4BFB-B7F8-88334ADE2795</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 30</ns1:AreaName>
+		<ns1:ChargeFIO>Ъргйепе Цуюьщ Чщщанмхгсксиэ</ns1:ChargeFIO>
+		<ns1:Phones>(283)046-77-26</ns1:Phones>
+		<ns1:Mails>bdrvysdn@wgxcj.crd</ns1:Mails>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>E95111C3-D5CB-479B-9A99-88C86AAEBA27</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 31</ns1:AreaName>
+		<ns1:Address>659988 н.Чудьйл, зю.Авнаннс, ь.80</ns1:Address>
+		<ns1:ChargeFIO>Аббкшясылткйш Юрвхшыяи Ьюфэонсбвжк</ns1:ChargeFIO>
+		<ns1:Mails>xelgcm@dxwgml.vn</ns1:Mails>
+		<ns1:WWW>qlrl://ojy-ybi.yem.te</ns1:WWW>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>73FD61D5-45D7-4A02-975F-8C7CD210DDAD</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 32</ns1:AreaName>
+		<ns1:Address>661954 м.Хщецгей, ън. П.Ояэъищв, 09</ns1:Address>
+		<ns1:ChargeFIO>Вькхоосщ Внцьь Щаыслюбрче</ns1:ChargeFIO>
+		<ns1:Mails>Hip.Wcz@aix.jkdfc.qw</ns1:Mails>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>52542CB4-D98A-4B97-97AE-8FBFEFA0CE8E</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 33</ns1:AreaName>
+		<ns1:Address>338851, РФ Чхупуэ-Яюдрбтоцен фчвщу, одд Ъэййэай Прхьф зх.Пзааег у.77</ns1:Address>
+		<ns1:ChargeFIO>Мыжапьъ Нскрй Ицяпцхлэпэлаю</ns1:ChargeFIO>
+		<ns1:WWW>ooq.otxxz.oakf.sk</ns1:WWW>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>C32F30A6-3E4E-4958-8337-A1DB1E6E6672</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 34</ns1:AreaName>
+		<ns1:Address>083985 м.Ешдящучнйи аф.Уйцбчбмсяй, 28</ns1:Address>
+		<ns1:ChargeFIO>Чухаэсчюф Втпсжвя Яхящоззщдз</ns1:ChargeFIO>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>14D9FF54-E216-4130-8E73-A95CC0662568</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 35</ns1:AreaName>
+		<ns1:Address>404712 ш.Мшлэбэ, уй.Йцохрвбтч,л.00</ns1:Address>
+		<ns1:ChargeFIO>Ущэсорхэ Юоаий Йющюжпдлм</ns1:ChargeFIO>
+		<ns1:Mails>lxjwhzx@zexuiv.gd</ns1:Mails>
+		<ns1:WWW>zit.ymul-bvx.ssfjv.wu</ns1:WWW>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>2C958FC0-A539-48F1-AF81-AC4C593CCCF0</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 36</ns1:AreaName>
+		<ns1:Address>343345 щ.Йэлпсхз, що.Юсэжос, 90</ns1:Address>
+		<ns1:ChargeFIO>Шцеюйят Жядзюбож Аюехжръя</ns1:ChargeFIO>
+		<ns1:Phones>(215)870-47-86</ns1:Phones>
+		<ns1:Mails>ccyfkbv.y@cycnn.opn</ns1:Mails>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>8534F0C2-1C8F-49A8-92B0-ADB5D3A5C153</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 37</ns1:AreaName>
+		<ns1:Address>959060 ю.Йпыхфыйфбэе, юб.Охябхм, 5</ns1:Address>
+		<ns1:ChargeFIO>Йбыюкоб Дядшъ Жмйьмтщяъв</ns1:ChargeFIO>
+		<ns1:Phones>(355)185-82-62</ns1:Phones>
+		<ns1:Mails>u.j.xwkgfpj@isnfy.nu</ns1:Mails>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>7DAC46D9-380F-4801-BAC7-B970FC1B42D4</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 38</ns1:AreaName>
+		<ns1:Address>736050, ГмцсмбрсуяИфуэмъзеч, э.Жгхщяэвьтн йъ.Лыхезв, 04</ns1:Address>
+		<ns1:ChargeFIO>Нрщллзъшьы Уыарвко Эешыейхл</ns1:ChargeFIO>
+		<ns1:Phones>6(22277)0-45-22</ns1:Phones>
+		<ns1:Mails>wio@brpikfej.bbd.Mndambiyd.cg</ns1:Mails>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>099AF35D-09B0-49CB-B59D-C141ABFBF2A0</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 39</ns1:AreaName>
+		<ns1:Address>939150 к.Шбхцих, ко.Йюфыц, 18</ns1:Address>
+		<ns1:ChargeFIO>Ймзкнгмшчт Ъфщэаюь Лдюъдлдтк</ns1:ChargeFIO>
+		<ns1:Mails>LpechehY@cjk.gh; fbhbwrzzhy@igr-kkd.bcy.sf;  tfnzwz.uda@ivzaq.ix</ns1:Mails>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>A45EA241-7FB8-4790-8262-C21285C9859A</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 40</ns1:AreaName>
+		<ns1:Address>157954 щх.Р.Иарь, ад.Ехыдшялышчяна, 1</ns1:Address>
+		<ns1:ChargeFIO>Гхкщщн Унзбэ Юякщжнлэь</ns1:ChargeFIO>
+		<ns1:Phones>(16125)6-58-86</ns1:Phones>
+		<ns1:Mails>kdisnpbwp@bisj.xr</ns1:Mails>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>C4577CF6-F1B6-4BB7-9EEC-C21D961BF7B4</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 41</ns1:AreaName>
+		<ns1:Address>240514 б.Ибзьвви, йв.Хвжо Щцщухюд, 11/41</ns1:Address>
+		<ns1:ChargeFIO>Ьпэьькэлмь Ущццюн Рыювцюьфвновщх</ns1:ChargeFIO>
+		<ns1:Mails>ovd@krcczina.mlu.innxxcqdi.oh</ns1:Mails>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>1FB9F67D-D5C2-4DA5-82C3-C35DAC9E1501</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 42</ns1:AreaName>
+		<ns1:Address>937669 щ Фуфз, рз.Гчвйцмхор, 97</ns1:Address>
+		<ns1:ChargeFIO>Хжчуфтсщуп Тлнпщ Пагсяздйэц</ns1:ChargeFIO>
+		<ns1:Mails>tdaedqpc@bthd.py; knnkhfg@abto.fz</ns1:Mails>
+		<ns1:WWW>shya://35-3-78.bcqsgro.cw</ns1:WWW>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>447BFBA5-E0C1-443F-9937-CD0B02EBAC96</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 43</ns1:AreaName>
+		<ns1:Address>254761 л.Йгнмс, кь.Свтюму, 5</ns1:Address>
+		<ns1:ChargeFIO>Щыахэйк Цнщисг Хюофлазппшк</ns1:ChargeFIO>
+		<ns1:Mails>qmvteuin@kkhv.iv</ns1:Mails>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>8D05D17C-B7C2-47B2-951B-CD8CC714677D</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 44</ns1:AreaName>
+		<ns1:Address>553078 Юврачыэумэ Оищзгячич, ф.Ъкбъэдтг, еэ.Цыьщптюлйюей, 0</ns1:Address>
+		<ns1:ChargeFIO>Лыцбеьф Ъайврт Фьъокгжно</ns1:ChargeFIO>
+		<ns1:Phones>2(58133)8-59-25</ns1:Phones>
+		<ns1:Mails>dvihd.ogbcbjg@mjgad.nk</ns1:Mails>
+		<ns1:WWW>ntwhehs-tk.ub</ns1:WWW>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>1FCA3B7E-5E52-4102-86AB-D1BB0FF21995</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 45</ns1:AreaName>
+		<ns1:Address>132557з.д.н.Жрнвчш-Фгццкбв,зо.Лоиуйц,ф.20</ns1:Address>
+		<ns1:ChargeFIO>Бжщьыщнпа Еояъвщ Ыргвоеужфж</ns1:ChargeFIO>
+		<ns1:Mails>vce@vgdzy-undyjip.bbr.mrjrvsxtd.sl</ns1:Mails>
+		<ns1:WWW>sfnxmkx-lcranrd.kenfm.li/gis/ntuzg.eoa</ns1:WWW>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>21EB8097-46EF-44C4-B551-D5E0DDF9E0CF</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 46</ns1:AreaName>
+		<ns1:Address>918640, н.Мжъдмъхе, яп.Тъгехокпт, 42</ns1:Address>
+		<ns1:ChargeFIO>Кпейефющьв Намвт Эъхлсэьль</ns1:ChargeFIO>
+		<ns1:Mails>qrb.veyhlxskwc@hzwq.jl</ns1:Mails>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>78AC5D51-1A89-40CE-84F9-D9FAC954D768</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 47</ns1:AreaName>
+		<ns1:Address>630503 с.Цпнвюэцеаио, мй.Еупукз,о.13</ns1:Address>
+		<ns1:ChargeFIO>Злпзэтлвр Вгдесш Хбщщзыыцгп</ns1:ChargeFIO>
+		<ns1:Mails>txes@hroun.vp</ns1:Mails>
+		<ns1:WWW>hokhcoweon.ozdtz.uv</ns1:WWW>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>5F52765C-8E79-4B3A-B70C-DAA1FBF83231</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 48</ns1:AreaName>
+		<ns1:Address>512975, НН, с. Эяющрп, чм. Ррбоэц, ы.842ц</ns1:Address>
+		<ns1:ChargeFIO>Пзррщукс Лязчож Охрарпбмж</ns1:ChargeFIO>
+		<ns1:Mails>ytk@bmv.hbt.fldlyjpez.uk</ns1:Mails>
+		<ns1:WWW>AVK.ivlsha.nix</ns1:WWW>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>B673F210-E1C1-44CA-B31B-E8ADA4012BDA</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 49</ns1:AreaName>
+		<ns1:Address>495177 псе.Мчергмйажсдф, сж.Крзешщгзь, 3</ns1:Address>
+		<ns1:ChargeFIO>Мькяхяите Шччам Шеэмщзлэжьд</ns1:ChargeFIO>
+		<ns1:Mails>kgc8928@dopdme.dp</ns1:Mails>
+		<ns1:WWW>ioan://weqxyymb.gbfk.wd/</ns1:WWW>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>4C61DA4C-B115-46D3-9CE2-EB05FB4EF171</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 50</ns1:AreaName>
+		<ns1:Address>655430 у. Фттлпнв, тц.Хнмюей, и.48</ns1:Address>
+		<ns1:ChargeFIO>Тщтрьывм Чйиваф Неэыоммд</ns1:ChargeFIO>
+		<ns1:Mails>npplw@agqejmf.mv</ns1:Mails>
+		<ns1:WWW>hbu.ajmiooov.hs</ns1:WWW>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>E1606B90-6C31-45EF-B67E-ED369D5DAF41</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 51</ns1:AreaName>
+		<ns1:Address>573321, ГВ, Чбаъжтлвмта шпюдч, д.у.с. Мбупкйву еп.Шшчцуящюцихтъфм, 96</ns1:Address>
+		<ns1:ChargeFIO>Мслжххпгню Кухуъ Бюшашзьжь</ns1:ChargeFIO>
+		<ns1:Mails>qafl_odbz@tclh.gu</ns1:Mails>
+		<ns1:WWW>ogjb://jrjn.cwyjwia.cu/</ns1:WWW>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+	<ns1:rbd_Areas>
+		<ns1:AreaID>B327560C-ED3D-41EA-AF26-FD8D3278D1AB</ns1:AreaID>
+		<ns1:Region>99</ns1:Region>
+		<ns1:AreaCode>45</ns1:AreaCode>
+		<ns1:AreaName>Наименование района 52</ns1:AreaName>
+		<ns1:Address>444012 ф.к. Бйнухбгсг, ющ.Йэтбвш, 21</ns1:Address>
+		<ns1:ChargeFIO>Бзйвунйщььш Сээыуэ Еяшфыячдюо</ns1:ChargeFIO>
+		<ns1:Mails>abe@grtlap.vst.uqkoxethd.zk</ns1:Mails>
+		<ns1:IsDeleted>0</ns1:IsDeleted>
+	</ns1:rbd_Areas>
+</ns1:GIADBSet>

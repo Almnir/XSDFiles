@@ -1,0 +1,3124 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="GIADBSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.rustest.ru/giadbset">
+  <xs:element name="GIADBSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msdata:EnforceConstraints="False">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="rbd_CurrentRegionAddress">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CurrentRegionAddressID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="REGION" type="xs:int" />
+              <xs:element name="CurrentRegionID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="AddressID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="AddressTypeID" type="xs:int" />
+              <xs:element name="AddressKind" type="xs:int" minOccurs="0" />
+              <xs:element name="CreateDate" type="xs:dateTime" />
+              <xs:element name="UpdateDate" type="xs:dateTime" />
+              <xs:element name="ImportCreateDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ImportUpdateDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="IsDeleted" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rbd_PCenters">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PCenterID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="REGION" type="xs:int" />
+              <xs:element name="PCenterCode" type="xs:int" />
+              <xs:element name="PCenterName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PCenterAddress">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ChargeFIO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Phones">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Mails">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsDeleted" type="xs:boolean" />
+              <xs:element name="CreateDate" type="xs:dateTime" />
+              <xs:element name="UpdateDate" type="xs:dateTime" />
+              <xs:element name="ImportCreateDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ImportUpdateDate" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rbd_Schools">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SchoolID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="GovernmentID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="SchoolCode" type="xs:int" />
+              <xs:element name="SchoolName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1024" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SchoolKindFK" type="xs:short" />
+              <xs:element name="SchoolPropertyFk" type="xs:short" />
+              <xs:element name="AreaFK" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="TownTypeFK" type="xs:int" />
+              <xs:element name="LawAddress">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Address" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DPosition">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FIO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Phones">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Faxs" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Mails">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="People11" type="xs:int" />
+              <xs:element name="People9" type="xs:int" />
+              <xs:element name="ChargeFIO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WWW" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LicNum" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LicRegNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LicIssueDate" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LicFinishingDate" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AccCertNum" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AccCertRegNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AccCertIssueDate" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AccCertFinishingDate" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="isVirtualSchool" type="xs:boolean" minOccurs="0" />
+              <xs:element name="SReserve1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SReserve2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DeleteType" type="xs:int" />
+              <xs:element name="IsTOM" type="xs:boolean" />
+              <xs:element name="REGION" type="xs:int" />
+              <xs:element name="ShortName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TownshipFK" type="xs:int" />
+              <xs:element name="CreateDate" type="xs:dateTime" />
+              <xs:element name="UpdateDate" type="xs:dateTime" />
+              <xs:element name="ImportCreateDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ImportUpdateDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="SchoolFlags" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="sht_Sheets_R">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REGION" type="xs:int" />
+              <xs:element name="SheetID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="PackageFK" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="FileName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RegionCode" type="xs:int" />
+              <xs:element name="DepartmentCode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TestTypeCode" type="xs:int" />
+              <xs:element name="SubjectCode" type="xs:int" />
+              <xs:element name="ExamDate" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="StationCode" type="xs:int" />
+              <xs:element name="AuditoriumCode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Barcode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CRC" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ParticipantID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="SchoolCode" type="xs:int" />
+              <xs:element name="Surname" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SecondName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DocumentSeries" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DocumentNumber" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DocumentHash" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Sex" type="xs:int" />
+              <xs:element name="ImageNumber" type="xs:int" />
+              <xs:element name="VariantCode" type="xs:int" />
+              <xs:element name="HasSignature" type="xs:boolean" />
+              <xs:element name="Condition" type="xs:int" />
+              <xs:element name="ProjectBatchID" type="xs:int" />
+              <xs:element name="Reserve01" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve02" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve03" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve04" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve05" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve06" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve07" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve08" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve09" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve10" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ac_Appeals">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REGION" type="xs:int" />
+              <xs:element name="AppealID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="HumanTestFK" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="AppealType" type="xs:int" />
+              <xs:element name="DeclinedByCommittee" type="xs:boolean" />
+              <xs:element name="CreateTime" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="UpdateTime" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="InProcess" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="AppealCondition" type="xs:int" />
+              <xs:element name="WorkStation" type="xs:int" />
+              <xs:element name="AppealComment" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ac_AppealTasks">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REGION" type="xs:int" />
+              <xs:element name="AppealTaskID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="AppealFK" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="TaskType" type="xs:int" />
+              <xs:element name="TaskNumber" type="xs:int" />
+              <xs:element name="OldValue" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NewValue" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ac_AppealVariants">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REGION" type="xs:int" />
+              <xs:element name="AppealID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="OldVariantCode" type="xs:int" />
+              <xs:element name="NewVariantCode" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ac_Changes">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REGION" type="xs:int" />
+              <xs:element name="ChangeID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="AppealFK" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="OldPrimaryMark" type="xs:int" />
+              <xs:element name="OldMark100" type="xs:int" />
+              <xs:element name="OldMark5" type="xs:int" />
+              <xs:element name="NewPrimaryMark" type="xs:int" />
+              <xs:element name="NewMark100" type="xs:int" />
+              <xs:element name="NewMark5" type="xs:int" />
+              <xs:element name="Info" type="xs:base64Binary" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="prnf_CertificatePrintMain">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REGION" type="xs:int" />
+              <xs:element name="CertificatePrintMainID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="ParticipantFK" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="CertificateBlob" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="AreaCode" type="xs:int" minOccurs="0" />
+              <xs:element name="SchoolCode" type="xs:int" minOccurs="0" />
+              <xs:element name="Punkt" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Wave" type="xs:int" />
+              <xs:element name="LicenseNumber">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PrintTime" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Surname" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SecondName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DocumentSeries" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DocumentNumber" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Sex" type="xs:boolean" />
+              <xs:element name="Graduate" type="xs:boolean" />
+              <xs:element name="LicenseDouble" type="xs:boolean" />
+              <xs:element name="Reserve1">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve3" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve4" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve5">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rbd_Address">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AddressID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="REGION" type="xs:int" />
+              <xs:element name="ZipCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="16" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LocalityTypeID" type="xs:int" />
+              <xs:element name="LocalityName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="StreetTypeID" type="xs:int" />
+              <xs:element name="StreetName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BuildingTypeID" type="xs:int" />
+              <xs:element name="BuildingNumber">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TownshipID" type="xs:int" />
+              <xs:element name="CreateDate" type="xs:dateTime" />
+              <xs:element name="UpdateDate" type="xs:dateTime" />
+              <xs:element name="ImportCreateDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ImportUpdateDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="IsDeleted" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rbd_Areas">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AreaID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="Region" type="xs:int" />
+              <xs:element name="AreaCode" type="xs:int" />
+              <xs:element name="AreaName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LawAddress" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Address" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ChargeFIO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Phones" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Mails" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WWW" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsDeleted" type="xs:boolean" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rbd_Auditoriums">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REGION" type="xs:int" />
+              <xs:element name="AuditoriumID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="StationID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="AuditoriumCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AuditoriumName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RowsCount" type="xs:int" />
+              <xs:element name="ColsCount" type="xs:int" />
+              <xs:element name="OrganizerOrder" type="xs:int" />
+              <xs:element name="DeleteType" type="xs:int" />
+              <xs:element name="LimitPotencial" type="xs:int" />
+              <xs:element name="Imported" type="xs:boolean" minOccurs="0" />
+              <xs:element name="CreateDate" type="xs:dateTime" />
+              <xs:element name="UpdateDate" type="xs:dateTime" />
+              <xs:element name="ImportCreateDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ImportUpdateDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ExamForm" type="xs:int" />
+              <xs:element name="VideoControl" type="xs:boolean" />
+              <xs:element name="IsLab" type="xs:boolean" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rbd_AuditoriumsSubjects">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="SubjectCode" type="xs:int" />
+              <xs:element name="AuditoriumID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="REGION" type="xs:int" />
+              <xs:element name="IsDeleted" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rbd_CurrentRegion">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="REGION" type="xs:int" />
+              <xs:element name="Name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RCOIName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RCOILawAddress">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RCOIAddress">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RCOIProperty">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RCOIDPosition">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RCOIDFio">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RCOIPhones">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RCOIFaxs">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RCOIEMails">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GEKAddress" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GEKDFio">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GEKPhones">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GEKFaxs">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GEKEMails">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EGEWWW">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rbd_Experts">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ExpertID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="REGION" type="xs:int" />
+              <xs:element name="ExpertCode" type="xs:int" />
+              <xs:element name="Surname">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SecondName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DocumentSeries" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="9" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DocumentNumber">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DocumentTypeCode" type="xs:int" />
+              <xs:element name="Sex" type="xs:boolean" minOccurs="0" />
+              <xs:element name="EduTypeFK" type="xs:int" minOccurs="0" />
+              <xs:element name="EduKindFK" type="xs:int" minOccurs="0" />
+              <xs:element name="Seniority" type="xs:int" />
+              <xs:element name="PrecedingYear" type="xs:int" />
+              <xs:element name="BirthYear">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsDeleted" type="xs:boolean" />
+              <xs:element name="Positions">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SchoolID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+              <xs:element name="NotSchoolJob" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ThirdVerifyAcc" type="xs:boolean" />
+              <xs:element name="CreateDate" type="xs:dateTime" />
+              <xs:element name="UpdateDate" type="xs:dateTime" />
+              <xs:element name="ImportCreateDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ImportUpdateDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="GovernmentID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+              <xs:element name="InConflictCommission" type="xs:boolean" />
+              <xs:element name="Qualification" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ExpertCategoryID" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rbd_ExpertsExams">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REGION" type="xs:int" />
+              <xs:element name="ID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="ExpertID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="ExamGlobalID" type="xs:int" />
+              <xs:element name="CreateDate" type="xs:dateTime" />
+              <xs:element name="UpdateDate" type="xs:dateTime" />
+              <xs:element name="ImportCreateDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ImportUpdateDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="IsDeleted" type="xs:boolean" minOccurs="0" />
+              <xs:element name="StationsExamsID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+              <xs:element name="CheckFormOnExam" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rbd_ExpertsSubjects">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REGION" type="xs:int" />
+              <xs:element name="ID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="ExpertID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="SubjectCode" type="xs:int" />
+              <xs:element name="IsDeleted" type="xs:boolean" minOccurs="0" />
+              <xs:element name="CheckForm" type="xs:int" />
+              <xs:element name="ExpertCategoryID" type="xs:int" />
+              <xs:element name="ThirdVerifyAcc" type="xs:boolean" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rbd_Governments">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="GovernmentID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="RegionID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="REGION" type="xs:int" />
+              <xs:element name="GovernmentCode" type="xs:int" />
+              <xs:element name="GovernmentName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LawAddress">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Address" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ChargeFIO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Phones">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Mails">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WWW" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ChargePosition">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Faxes">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GType" type="xs:int" />
+              <xs:element name="SpecialistFIO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SpecialistMails" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SpecialistPhones">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DeleteType" type="xs:int" />
+              <xs:element name="CreateDate" type="xs:dateTime" />
+              <xs:element name="UpdateDate" type="xs:dateTime" />
+              <xs:element name="ImportCreateDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ImportUpdateDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TimeZoneId" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rbd_ParticipantProperties">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PropertyId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="ParticipantId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="Property" type="xs:int" />
+              <xs:element name="PValue" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Region" type="xs:int" />
+              <xs:element name="IsDeleted" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rbd_Participants">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ParticipantID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="Region" type="xs:int" />
+              <xs:element name="ParticipantCode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="16" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Surname">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SecondName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DocumentSeries" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="9" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DocumentNumber">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DocumentTypeCode" type="xs:int" />
+              <xs:element name="Sex" type="xs:boolean" />
+              <xs:element name="Gia" type="xs:int" />
+              <xs:element name="GiaAccept" type="xs:int" />
+              <xs:element name="pClass">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BirthDay" type="xs:dateTime" />
+              <xs:element name="Reserve1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DeleteType" type="xs:int" />
+              <xs:element name="LimitPotencial" type="xs:int" />
+              <xs:element name="ParticipantDouble" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+              <xs:element name="FinishRegion" type="xs:int" minOccurs="0" />
+              <xs:element name="ParticipantCategoryFK" type="xs:int" />
+              <xs:element name="SchoolRegistration" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="SchoolOutcoming" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+              <xs:element name="Study" type="xs:int" />
+              <xs:element name="CreateDate" type="xs:dateTime" />
+              <xs:element name="UpdateDate" type="xs:dateTime" />
+              <xs:element name="ImportCreateDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ImportUpdateDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CitizenshipID" type="xs:int" />
+              <xs:element name="SchoolOutcomingName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rbd_ParticipantsExamPStation">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PExamPlacesOnStationID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="PlacesID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="AuditoriumID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="StationExamAuditoryID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="StationsExamsID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="ParticipantsExamsOnStationID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="Region" type="xs:int" />
+              <xs:element name="IsManual" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsDeleted" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rbd_ParticipantsExams">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REGION" type="xs:int" />
+              <xs:element name="ParticipantID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="ExamGlobalID" type="xs:int" />
+              <xs:element name="ParticipantsExamsID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="CreateDate" type="xs:dateTime" />
+              <xs:element name="UpdateDate" type="xs:dateTime" />
+              <xs:element name="ImportCreateDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ImportUpdateDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="IsDeleted" type="xs:boolean" minOccurs="0" />
+              <xs:element name="ExamFormatCode" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rbd_ParticipantsExamsOnStation">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ParticipantsExamsOnStationID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="ExamGlobalID" type="xs:int" />
+              <xs:element name="ParticipantsExamsID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="StationsExamsID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="Region" type="xs:int" />
+              <xs:element name="CreateDate" type="xs:dateTime" />
+              <xs:element name="UpdateDate" type="xs:dateTime" />
+              <xs:element name="ImportCreateDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ImportUpdateDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="IsDeleted" type="xs:boolean" minOccurs="0" />
+              <xs:element name="SessionID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rbd_Places">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PlacesID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="REGION" type="xs:int" />
+              <xs:element name="AuditoriumID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="Row" type="xs:int" />
+              <xs:element name="Col" type="xs:int" />
+              <xs:element name="IsBad" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsDeleted" type="xs:boolean" minOccurs="0" />
+              <xs:element name="PlaceType" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rbd_StationExamAuditory">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StationExamAuditoryID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="Region" type="xs:int" />
+              <xs:element name="StationsExamsID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="StationID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="AuditoriumID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="PlacesCount" type="xs:int" />
+              <xs:element name="CreateDate" type="xs:dateTime" />
+              <xs:element name="UpdateDate" type="xs:dateTime" />
+              <xs:element name="ImportCreateDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ImportUpdateDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="IsDeleted" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsPreparation" type="xs:boolean" minOccurs="0" />
+              <xs:element name="ExamFormatCode" type="xs:int" minOccurs="0" />
+              <xs:element name="IsAutoAppoint" type="xs:boolean" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rbd_Stations">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StationID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="REGION" type="xs:int" />
+              <xs:element name="AreaID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="StationCode" type="xs:int" />
+              <xs:element name="StationName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="StationAddress" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SchoolFK" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+              <xs:element name="GovernmentID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="sVolume" type="xs:int" />
+              <xs:element name="IsActive" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Phones" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Mails">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PCenterID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+              <xs:element name="IsTOM" type="xs:boolean" />
+              <xs:element name="DeleteType" type="xs:int" />
+              <xs:element name="AuditoriumsCount" type="xs:int" minOccurs="0" />
+              <xs:element name="CreateDate" type="xs:dateTime" />
+              <xs:element name="UpdateDate" type="xs:dateTime" />
+              <xs:element name="ImportCreateDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ImportUpdateDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ExamForm" type="xs:int" />
+              <xs:element name="VideoControl" type="xs:boolean" />
+              <xs:element name="AddressID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+              <xs:element name="StationFlags" type="xs:int" />
+              <xs:element name="TimeZoneId" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rbd_StationsExams">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REGION" type="xs:int" />
+              <xs:element name="StationsExamsID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="StationID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="ExamGlobalID" type="xs:int" />
+              <xs:element name="PlacesCount" type="xs:int" minOccurs="0" />
+              <xs:element name="LockOnStation" type="xs:boolean" />
+              <xs:element name="CreateDate" type="xs:dateTime" />
+              <xs:element name="UpdateDate" type="xs:dateTime" />
+              <xs:element name="ImportCreateDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ImportUpdateDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="IsDeleted" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsAutoAppoint" type="xs:boolean" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rbd_StationWorkerOnExam">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REGION" type="xs:int" />
+              <xs:element name="StationWorkerOnExamID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="SWorkerPositionID" type="xs:int" />
+              <xs:element name="StationsExamsID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="AuditoriumID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+              <xs:element name="StationExamAuditoryID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+              <xs:element name="StationWorkerOnStationID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="StationId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="StationWorkerId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="CreateDate" type="xs:dateTime" />
+              <xs:element name="UpdateDate" type="xs:dateTime" />
+              <xs:element name="ImportCreateDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ImportUpdateDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="IsDeleted" type="xs:boolean" minOccurs="0" />
+              <xs:element name="OrganizationRolesID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+              <xs:element name="SWorkerRoleID" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rbd_StationWorkerOnStation">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StationWorkerOnStationID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="StationId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="StationWorkerId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="WorkerType" type="xs:int" />
+              <xs:element name="SWorkerPositionID" type="xs:int" />
+              <xs:element name="Region" type="xs:int" />
+              <xs:element name="CreateDate" type="xs:dateTime" />
+              <xs:element name="UpdateDate" type="xs:dateTime" />
+              <xs:element name="ImportCreateDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ImportUpdateDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="IsDeleted" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rbd_StationWorkerProperties">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StationWorkerParamID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="Region" type="xs:int" />
+              <xs:element name="StationWorkerID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="PropertyType" type="xs:int" />
+              <xs:element name="PropertyValue" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PropertyDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CreateDate" type="xs:dateTime" />
+              <xs:element name="UpdateDate" type="xs:dateTime" />
+              <xs:element name="ImportCreateDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ImportUpdateDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="IsDeleted" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rbd_StationWorkers">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StationWorkerID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="REGION" type="xs:int" />
+              <xs:element name="DocumentTypeCode" type="xs:int" minOccurs="0" />
+              <xs:element name="StationWorkerCode" type="xs:int" minOccurs="0" />
+              <xs:element name="Surname">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SecondName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DocumentSeries" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="9" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DocumentNumber">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Sex" type="xs:boolean" minOccurs="0" />
+              <xs:element name="BirthYear" type="xs:int" />
+              <xs:element name="SchoolPosition" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NotSchoolJob" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DeleteType" type="xs:int" />
+              <xs:element name="GovernmentID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+              <xs:element name="SchoolID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+              <xs:element name="WorkerPositionID" type="xs:int" minOccurs="0" />
+              <xs:element name="Imported" type="xs:boolean" minOccurs="0" />
+              <xs:element name="CreateDate" type="xs:dateTime" />
+              <xs:element name="UpdateDate" type="xs:dateTime" />
+              <xs:element name="ImportCreateDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ImportUpdateDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PrecedingYear" type="xs:int" minOccurs="0" />
+              <xs:element name="Seniority" type="xs:int" minOccurs="0" />
+              <xs:element name="EducationTypeID" type="xs:int" minOccurs="0" />
+              <xs:element name="SWorkerCategory" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CertificateKeyID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+              <xs:element name="Phones" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Mails" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rbd_StationWorkersSubjects">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REGION" type="xs:int" />
+              <xs:element name="ID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="SubjectCode" type="xs:int" />
+              <xs:element name="StationWorkerID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="IsDeleted" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="res_Answers">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REGION" type="xs:int" />
+              <xs:element name="AnswerID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="HumanTestFK" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="TaskTypeCode" type="xs:int" />
+              <xs:element name="TaskNumber" type="xs:int" />
+              <xs:element name="AnswerValue" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ReplaceValue" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CategoryValue" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="res_Complects">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REGION" type="xs:int" />
+              <xs:element name="ComplectID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="Barcode_AB" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Barcode_C" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Barcode_R" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Barcode_D" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SheetFK_AB" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+              <xs:element name="SheetFK_C" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+              <xs:element name="SheetFK_R" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+              <xs:element name="SheetFK_D" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+              <xs:element name="RegionCode" type="xs:int" />
+              <xs:element name="DepartmentCode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TestTypeCode" type="xs:int" />
+              <xs:element name="SubjectCode" type="xs:int" />
+              <xs:element name="ExamDate" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ZoneCode" type="xs:int" />
+              <xs:element name="StuffCode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VariantCode" type="xs:int" />
+              <xs:element name="IsTom" type="xs:boolean" />
+              <xs:element name="ComplectType" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="ExchangedID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="res_HumanTests">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REGION" type="xs:int" />
+              <xs:element name="HumanTestID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="ParticipantFK" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="PackageFK" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="FileName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RegionCode" type="xs:int" />
+              <xs:element name="DepartmentCode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TestTypeCode" type="xs:int" />
+              <xs:element name="SubjectCode" type="xs:int" />
+              <xs:element name="ExamDate" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="StationCode" type="xs:int" />
+              <xs:element name="AuditoriumCode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VariantCode" type="xs:int" />
+              <xs:element name="ProcessCondition" type="xs:int" />
+              <xs:element name="LicenseCondition" type="xs:int" />
+              <xs:element name="ReplicationCondition" type="xs:int" />
+              <xs:element name="Reserve01" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve02" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve03" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve04" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve05" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve06" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve07" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve08" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve09" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve10" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="res_Marks">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REGION" type="xs:int" />
+              <xs:element name="HumanTestID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="PrimaryMark" type="xs:int" />
+              <xs:element name="PercentMark" type="xs:int" />
+              <xs:element name="Mark100" type="xs:int" />
+              <xs:element name="Mark5" type="xs:int" />
+              <xs:element name="MarkX" type="xs:int" />
+              <xs:element name="Rating" type="xs:double" />
+              <xs:element name="PrimaryMarkA" type="xs:int" />
+              <xs:element name="TestResultA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PrimaryMarkB" type="xs:int" />
+              <xs:element name="TestResultB" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PrimaryMarkC" type="xs:int" />
+              <xs:element name="TestResultC" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PrimaryMarkD" type="xs:int" />
+              <xs:element name="TestResultD" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="res_SubComplects">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REGION" type="xs:int" />
+              <xs:element name="SubComplectID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="Barcode_KIM" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Barcode_R" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Barcode_D" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SheetFK_R" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+              <xs:element name="SheetFK_D" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+              <xs:element name="RegionCode" type="xs:int" />
+              <xs:element name="DepartmentCode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TestTypeCode" type="xs:int" />
+              <xs:element name="SubjectCode" type="xs:int" />
+              <xs:element name="ExamDate" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ZoneCode" type="xs:int" />
+              <xs:element name="StuffCode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VariantCode" type="xs:int" />
+              <xs:element name="IsTom" type="xs:boolean" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="res_Subtests">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REGION" type="xs:int" />
+              <xs:element name="SubtestID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="HumanTestID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="ParticipantFK" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="PackageFK" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+              <xs:element name="SubtestType" type="xs:int" />
+              <xs:element name="TestTypeCode" type="xs:int" />
+              <xs:element name="SubjectCode" type="xs:int" />
+              <xs:element name="SubtestName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ExamDate">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="11" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VariantCode" type="xs:int" />
+              <xs:element name="ProcessCondition" type="xs:int" />
+              <xs:element name="ReplicationCondition" type="xs:int" />
+              <xs:element name="UpdateDate" type="xs:dateTime" />
+              <xs:element name="Tasks" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="PrimaryMark" type="xs:int" minOccurs="0" />
+              <xs:element name="Mark" type="xs:int" minOccurs="0" />
+              <xs:element name="Minimum" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="sht_Alts">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AltID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="REGION" type="xs:short" />
+              <xs:element name="SheetFK" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="Barcode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="13" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ProtocolCode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ExpertFK" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+              <xs:element name="ExpertCode" type="xs:int" />
+              <xs:element name="IsThird" type="xs:short" minOccurs="0" />
+              <xs:element name="Alt" type="xs:short" minOccurs="0" />
+              <xs:element name="DeleteType" type="xs:short" minOccurs="0" />
+              <xs:element name="Reserve01" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve02" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="sht_FinalMarks_C">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REGION" type="xs:int" />
+              <xs:element name="MarkID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="SheetFK" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="TaskNumber" type="xs:int" />
+              <xs:element name="MarkValue" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="sht_FinalMarks_D">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REGION" type="xs:int" />
+              <xs:element name="MarkID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="SheetFK" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="TaskNumber" type="xs:int" />
+              <xs:element name="MarkValue" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="sht_Marks_AB">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REGION" type="xs:int" />
+              <xs:element name="MarkID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="SheetFK" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+              <xs:element name="TaskTypeCode" type="xs:int" />
+              <xs:element name="TaskNumber" type="xs:int" />
+              <xs:element name="AnswerValue" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ReplaceValue" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="sht_Marks_C">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REGION" type="xs:int" />
+              <xs:element name="MarkID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="SheetFK" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="ProtocolFile" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ProtocolCode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ProtocolCRC" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ThirdCheck" type="xs:boolean" />
+              <xs:element name="RowNumber" type="xs:int" />
+              <xs:element name="TaskNumber" type="xs:int" />
+              <xs:element name="MarkValue" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="sht_Marks_D">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REGION" type="xs:int" />
+              <xs:element name="MarkID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="SheetFK" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="ProtocolFile" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ProtocolCode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ProtocolCRC" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ThirdCheck" type="xs:boolean" />
+              <xs:element name="RowNumber" type="xs:int" />
+              <xs:element name="TaskNumber" type="xs:int" />
+              <xs:element name="MarkValue" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="sht_Sheets_AB">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REGION" type="xs:int" />
+              <xs:element name="SheetID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="PackageFK" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+              <xs:element name="FileName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RegionCode" type="xs:int" />
+              <xs:element name="DepartmentCode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TestTypeCode" type="xs:int" />
+              <xs:element name="SubjectCode" type="xs:int" />
+              <xs:element name="ExamDate" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="StationCode" type="xs:int" />
+              <xs:element name="AuditoriumCode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Barcode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CRC" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ImageNumber" type="xs:int" />
+              <xs:element name="VariantCode" type="xs:int" />
+              <xs:element name="HasSignature" type="xs:boolean" />
+              <xs:element name="Condition" type="xs:int" />
+              <xs:element name="ProjectBatchID" type="xs:int" />
+              <xs:element name="Reserve01" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve02" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve03" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve04" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve05" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve06" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve07" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve08" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve09" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve10" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="sht_Sheets_C">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REGION" type="xs:int" />
+              <xs:element name="SheetID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="PackageFK" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="FileName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RegionCode" type="xs:int" />
+              <xs:element name="DepartmentCode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TestTypeCode" type="xs:int" />
+              <xs:element name="SubjectCode" type="xs:int" />
+              <xs:element name="ExamDate" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="StationCode" type="xs:int" />
+              <xs:element name="AuditoriumCode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Barcode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CRC" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SheetCode" type="xs:int" />
+              <xs:element name="ResponsibleCode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsEmpty" type="xs:boolean" />
+              <xs:element name="ImageNumber" type="xs:int" />
+              <xs:element name="VariantCode" type="xs:int" />
+              <xs:element name="ImagePaths" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ProtocolCodes" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Condition" type="xs:int" />
+              <xs:element name="ProjectBatchID" type="xs:int" />
+              <xs:element name="DeleteType" type="xs:short" minOccurs="0" />
+              <xs:element name="Reserve01" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve02" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve03" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve04" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve05" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve06" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve07" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve08" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve09" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve10" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="sht_Sheets_D">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REGION" type="xs:int" />
+              <xs:element name="SheetID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="PackageFK" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="FileName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RegionCode" type="xs:int" />
+              <xs:element name="DepartmentCode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TestTypeCode" type="xs:int" />
+              <xs:element name="SubjectCode" type="xs:int" />
+              <xs:element name="ExamDate" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="StationCode" type="xs:int" />
+              <xs:element name="AuditoriumCode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Barcode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CRC" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SheetCode" type="xs:int" />
+              <xs:element name="ResponsibleCode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsEmpty" type="xs:boolean" />
+              <xs:element name="ImageNumber" type="xs:int" />
+              <xs:element name="VariantCode" type="xs:int" />
+              <xs:element name="ImagePaths" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ProtocolCodes" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Condition" type="xs:int" />
+              <xs:element name="ProjectBatchID" type="xs:int" />
+              <xs:element name="DeleteType" type="xs:short" minOccurs="0" />
+              <xs:element name="Reserve01" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve02" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve03" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve04" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve05" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve06" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve07" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve08" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve09" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reserve10" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="sht_Packages">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REGION" type="xs:int" />
+              <xs:element name="PackageID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="FileName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RegionCode" type="xs:int" />
+              <xs:element name="DepartmentCode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TestTypeCode" type="xs:int" />
+              <xs:element name="SubjectCode" type="xs:int" />
+              <xs:element name="ExamDate" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="StationCode" type="xs:int" />
+              <xs:element name="AuditoriumCode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Condition" type="xs:int" />
+              <xs:element name="CreateTime" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="19" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UpdateTime" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="19" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SheetsCount" type="xs:int" />
+              <xs:element name="IsExported" type="xs:boolean" />
+              <xs:element name="ProjectName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ProjectBatchID" type="xs:int" />
+              <xs:element name="ProjectBatchName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rbd_SchoolAddress">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SchoolAddressID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="REGION" type="xs:int" />
+              <xs:element name="SchoolID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="AddressID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="AddressTypeID" type="xs:int" />
+              <xs:element name="AddressKind" type="xs:int" minOccurs="0" />
+              <xs:element name="CreateDate" type="xs:dateTime" />
+              <xs:element name="UpdateDate" type="xs:dateTime" />
+              <xs:element name="ImportCreateDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ImportUpdateDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="IsDeleted" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rbd_ParticipantsProfSubject">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REGION" type="xs:int" />
+              <xs:element name="ID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="ParticipantID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="SubjectCode" type="xs:int" />
+              <xs:element name="IsDeleted" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rbd_ParticipantsSubject">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REGION" type="xs:int" />
+              <xs:element name="ID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="ParticipantID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="SubjectCode" type="xs:int" />
+              <xs:element name="IsDeleted" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rbd_StationWorkersAccreditation">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SWorkerAccreditationID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="Region" type="xs:int" />
+              <xs:element name="StationWorkerID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="GovernmentID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+              <xs:element name="NotGovernmentAccreditation" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DocumentNumber">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsFamily" type="xs:int" />
+              <xs:element name="DateFrom" type="xs:dateTime" />
+              <xs:element name="DateTo" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CreateDate" type="xs:dateTime" />
+              <xs:element name="UpdateDate" type="xs:dateTime" />
+              <xs:element name="ImportCreateDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ImportUpdateDate" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rbd_StationFormAct">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StationFormActId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="Region" type="xs:int" />
+              <xs:element name="RegistrationCode" type="xs:int" minOccurs="0" />
+              <xs:element name="GovermentCode" type="xs:int" />
+              <xs:element name="StationCode" type="xs:int" />
+              <xs:element name="SubjectCode" type="xs:int" />
+              <xs:element name="ExamDate" type="xs:dateTime" />
+              <xs:element name="GovermentID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+              <xs:element name="StationID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+              <xs:element name="ExamGlobalID" type="xs:int" minOccurs="0" />
+              <xs:element name="ProjectName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ProjectBatchId" type="xs:int" />
+              <xs:element name="CertificateNum">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="StartTime">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EndTime">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IDCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="B01" type="xs:boolean" minOccurs="0" />
+              <xs:element name="B02" type="xs:boolean" minOccurs="0" />
+              <xs:element name="B03" type="xs:boolean" minOccurs="0" />
+              <xs:element name="B04" type="xs:boolean" minOccurs="0" />
+              <xs:element name="B05" type="xs:boolean" minOccurs="0" />
+              <xs:element name="B01Other" type="xs:boolean" minOccurs="0" />
+              <xs:element name="B02Other" type="xs:boolean" minOccurs="0" />
+              <xs:element name="B03Other" type="xs:boolean" minOccurs="0" />
+              <xs:element name="B04Other" type="xs:boolean" minOccurs="0" />
+              <xs:element name="B05Other" type="xs:boolean" minOccurs="0" />
+              <xs:element name="B1" type="xs:boolean" minOccurs="0" />
+              <xs:element name="B2" type="xs:boolean" minOccurs="0" />
+              <xs:element name="B3" type="xs:boolean" minOccurs="0" />
+              <xs:element name="B4" type="xs:boolean" minOccurs="0" />
+              <xs:element name="B5" type="xs:boolean" minOccurs="0" />
+              <xs:element name="B6" type="xs:boolean" minOccurs="0" />
+              <xs:element name="B7" type="xs:boolean" minOccurs="0" />
+              <xs:element name="B8" type="xs:boolean" minOccurs="0" />
+              <xs:element name="B9" type="xs:boolean" minOccurs="0" />
+              <xs:element name="B10" type="xs:boolean" minOccurs="0" />
+              <xs:element name="B11" type="xs:boolean" minOccurs="0" />
+              <xs:element name="B12" type="xs:boolean" minOccurs="0" />
+              <xs:element name="B13" type="xs:boolean" minOccurs="0" />
+              <xs:element name="B14" type="xs:boolean" minOccurs="0" />
+              <xs:element name="B15" type="xs:boolean" minOccurs="0" />
+              <xs:element name="B16" type="xs:boolean" minOccurs="0" />
+              <xs:element name="B17" type="xs:boolean" minOccurs="0" />
+              <xs:element name="B18" type="xs:boolean" minOccurs="0" />
+              <xs:element name="B19" type="xs:boolean" minOccurs="0" />
+              <xs:element name="B20" type="xs:boolean" minOccurs="0" />
+              <xs:element name="B21" type="xs:boolean" minOccurs="0" />
+              <xs:element name="B22" type="xs:boolean" minOccurs="0" />
+              <xs:element name="B23" type="xs:boolean" minOccurs="0" />
+              <xs:element name="B24" type="xs:boolean" minOccurs="0" />
+              <xs:element name="B25" type="xs:boolean" minOccurs="0" />
+              <xs:element name="B26" type="xs:boolean" minOccurs="0" />
+              <xs:element name="B27" type="xs:boolean" minOccurs="0" />
+              <xs:element name="B28" type="xs:boolean" minOccurs="0" />
+              <xs:element name="B29" type="xs:boolean" minOccurs="0" />
+              <xs:element name="B30" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Comments" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rbd_StationForm">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StationFormId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="StationFormType" type="xs:int" />
+              <xs:element name="Region" type="xs:int" />
+              <xs:element name="RegistrationCode" type="xs:int" />
+              <xs:element name="GovermentCode" type="xs:int" />
+              <xs:element name="StationCode" type="xs:int" />
+              <xs:element name="SubjectCode" type="xs:int" />
+              <xs:element name="ExamDate" type="xs:dateTime" />
+              <xs:element name="CurrentPage" type="xs:int" />
+              <xs:element name="CountPage" type="xs:int" />
+              <xs:element name="GovermentID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+              <xs:element name="StationID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+              <xs:element name="ExamGlobalID" type="xs:int" minOccurs="0" />
+              <xs:element name="IsTOM" type="xs:boolean" />
+              <xs:element name="ProjectName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IDCode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ProjectBatchId" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rbd_StationFormAuditoryFields">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StationFormAuditoryFieldsId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="StationFormId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="Region" type="xs:int" />
+              <xs:element name="StationFormsFieldsHelperId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="AuditoriumCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AuditoriumID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+              <xs:element name="FieldValue1" type="xs:int" minOccurs="0" />
+              <xs:element name="FieldValue2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1024" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FieldValue3" type="xs:base64Binary" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rbd_StationFormFields">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StationFormFieldsId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="StationFormId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="Region" type="xs:int" />
+              <xs:element name="StationFormsFieldsHelperId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="FieldValue" type="xs:int" minOccurs="0" />
+              <xs:element name="FieldDesc" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dats_Borders">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REGION" type="xs:int" />
+              <xs:element name="BorderID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="SubjectCode" type="xs:int" />
+              <xs:element name="ScalingGroupFK" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+              <xs:element name="PrimaryMark" type="xs:int" />
+              <xs:element name="ScaleMark" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dats_Groups">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REGION" type="xs:int" />
+              <xs:element name="ScalingGroupID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="GroupTypeCode" type="xs:int" />
+              <xs:element name="GroupName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="93" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TestTypeCode" type="xs:int" />
+              <xs:element name="SubjectCode" type="xs:int" />
+              <xs:element name="ScaleMarkMinimum" type="xs:int" />
+              <xs:element name="GroupMarkMinimum" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//rbd_CurrentRegionAddress" />
+      <xs:field xpath="CurrentRegionAddressID" />
+    </xs:unique>
+    <xs:unique name="rbd_PCenters_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//rbd_PCenters" />
+      <xs:field xpath="PCenterID" />
+      <xs:field xpath="REGION" />
+    </xs:unique>
+    <xs:unique name="rbd_Schools_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//rbd_Schools" />
+      <xs:field xpath="SchoolID" />
+      <xs:field xpath="REGION" />
+    </xs:unique>
+    <xs:unique name="sht_Sheets_R_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//sht_Sheets_R" />
+      <xs:field xpath="REGION" />
+      <xs:field xpath="SheetID" />
+    </xs:unique>
+    <xs:unique name="ac_Appeals_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//ac_Appeals" />
+      <xs:field xpath="REGION" />
+      <xs:field xpath="AppealID" />
+    </xs:unique>
+    <xs:unique name="ac_AppealTasks_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//ac_AppealTasks" />
+      <xs:field xpath="AppealTaskID" />
+    </xs:unique>
+    <xs:unique name="ac_AppealVariants_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//ac_AppealVariants" />
+      <xs:field xpath="REGION" />
+      <xs:field xpath="AppealID" />
+    </xs:unique>
+    <xs:unique name="ac_Changes_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//ac_Changes" />
+      <xs:field xpath="REGION" />
+      <xs:field xpath="ChangeID" />
+      <xs:field xpath="AppealFK" />
+    </xs:unique>
+    <xs:unique name="prnf_CertificatePrintMain_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//prnf_CertificatePrintMain" />
+      <xs:field xpath="REGION" />
+      <xs:field xpath="CertificatePrintMainID" />
+    </xs:unique>
+    <xs:unique name="rbd_Address_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//rbd_Address" />
+      <xs:field xpath="AddressID" />
+    </xs:unique>
+    <xs:unique name="rbd_Areas_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//rbd_Areas" />
+      <xs:field xpath="AreaID" />
+      <xs:field xpath="Region" />
+    </xs:unique>
+    <xs:unique name="rbd_Auditoriums_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//rbd_Auditoriums" />
+      <xs:field xpath="REGION" />
+      <xs:field xpath="AuditoriumID" />
+    </xs:unique>
+    <xs:unique name="rbd_AuditoriumsSubjects_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//rbd_AuditoriumsSubjects" />
+      <xs:field xpath="ID" />
+      <xs:field xpath="REGION" />
+    </xs:unique>
+    <xs:unique name="rbd_CurrentRegion_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//rbd_CurrentRegion" />
+      <xs:field xpath="ID" />
+    </xs:unique>
+    <xs:unique name="rbd_Experts_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//rbd_Experts" />
+      <xs:field xpath="ExpertID" />
+      <xs:field xpath="REGION" />
+    </xs:unique>
+    <xs:unique name="rbd_ExpertsExams_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//rbd_ExpertsExams" />
+      <xs:field xpath="REGION" />
+      <xs:field xpath="ID" />
+    </xs:unique>
+    <xs:unique name="rbd_ExpertsSubjects_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//rbd_ExpertsSubjects" />
+      <xs:field xpath="REGION" />
+      <xs:field xpath="ID" />
+    </xs:unique>
+    <xs:unique name="rbd_Governments_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//rbd_Governments" />
+      <xs:field xpath="GovernmentID" />
+      <xs:field xpath="REGION" />
+    </xs:unique>
+    <xs:unique name="rbd_ParticipantProperties_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//rbd_ParticipantProperties" />
+      <xs:field xpath="PropertyId" />
+      <xs:field xpath="Region" />
+    </xs:unique>
+    <xs:unique name="rbd_Participants_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//rbd_Participants" />
+      <xs:field xpath="ParticipantID" />
+      <xs:field xpath="Region" />
+    </xs:unique>
+    <xs:unique name="rbd_ParticipantsExamPStation_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//rbd_ParticipantsExamPStation" />
+      <xs:field xpath="PExamPlacesOnStationID" />
+      <xs:field xpath="Region" />
+    </xs:unique>
+    <xs:unique name="rbd_ParticipantsExams_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//rbd_ParticipantsExams" />
+      <xs:field xpath="ParticipantsExamsID" />
+    </xs:unique>
+    <xs:unique name="rbd_ParticipantsExamsOnStation_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//rbd_ParticipantsExamsOnStation" />
+      <xs:field xpath="ParticipantsExamsOnStationID" />
+      <xs:field xpath="Region" />
+    </xs:unique>
+    <xs:unique name="rbd_Places_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//rbd_Places" />
+      <xs:field xpath="PlacesID" />
+      <xs:field xpath="REGION" />
+    </xs:unique>
+    <xs:unique name="rbd_StationExamAuditory_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//rbd_StationExamAuditory" />
+      <xs:field xpath="StationExamAuditoryID" />
+    </xs:unique>
+    <xs:unique name="rbd_Stations_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//rbd_Stations" />
+      <xs:field xpath="StationID" />
+    </xs:unique>
+    <xs:unique name="rbd_StationsExams_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//rbd_StationsExams" />
+      <xs:field xpath="REGION" />
+      <xs:field xpath="StationsExamsID" />
+    </xs:unique>
+    <xs:unique name="rbd_StationWorkerOnExam_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//rbd_StationWorkerOnExam" />
+      <xs:field xpath="REGION" />
+      <xs:field xpath="StationWorkerOnExamID" />
+    </xs:unique>
+    <xs:unique name="rbd_StationWorkerOnStation_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//rbd_StationWorkerOnStation" />
+      <xs:field xpath="StationWorkerOnStationID" />
+    </xs:unique>
+    <xs:unique name="rbd_StationWorkerProperties_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//rbd_StationWorkerProperties" />
+      <xs:field xpath="StationWorkerParamID" />
+    </xs:unique>
+    <xs:unique name="rbd_StationWorkers_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//rbd_StationWorkers" />
+      <xs:field xpath="StationWorkerID" />
+      <xs:field xpath="REGION" />
+    </xs:unique>
+    <xs:unique name="rbd_StationWorkersSubjects_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//rbd_StationWorkersSubjects" />
+      <xs:field xpath="REGION" />
+      <xs:field xpath="ID" />
+    </xs:unique>
+    <xs:unique name="res_Answers_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//res_Answers" />
+      <xs:field xpath="REGION" />
+      <xs:field xpath="HumanTestFK" />
+      <xs:field xpath="TaskTypeCode" />
+      <xs:field xpath="TaskNumber" />
+    </xs:unique>
+    <xs:unique name="res_Complects_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//res_Complects" />
+      <xs:field xpath="REGION" />
+      <xs:field xpath="ComplectID" />
+    </xs:unique>
+    <xs:unique name="res_HumanTests_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//res_HumanTests" />
+      <xs:field xpath="REGION" />
+      <xs:field xpath="HumanTestID" />
+    </xs:unique>
+    <xs:unique name="res_Marks_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//res_Marks" />
+      <xs:field xpath="REGION" />
+      <xs:field xpath="HumanTestID" />
+    </xs:unique>
+    <xs:unique name="res_SubComplects_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//res_SubComplects" />
+      <xs:field xpath="REGION" />
+      <xs:field xpath="SubComplectID" />
+    </xs:unique>
+    <xs:unique name="res_Subtests_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//res_Subtests" />
+      <xs:field xpath="REGION" />
+      <xs:field xpath="SubtestID" />
+      <xs:field xpath="HumanTestID" />
+      <xs:field xpath="SubtestType" />
+      <xs:field xpath="SubtestName" />
+    </xs:unique>
+    <xs:unique name="sht_Alts_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//sht_Alts" />
+      <xs:field xpath="AltID" />
+      <xs:field xpath="REGION" />
+    </xs:unique>
+    <xs:unique name="sht_FinalMarks_C_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//sht_FinalMarks_C" />
+      <xs:field xpath="MarkID" />
+    </xs:unique>
+    <xs:unique name="sht_FinalMarks_D_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//sht_FinalMarks_D" />
+      <xs:field xpath="MarkID" />
+    </xs:unique>
+    <xs:unique name="sht_Marks_AB_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//sht_Marks_AB" />
+      <xs:field xpath="MarkID" />
+    </xs:unique>
+    <xs:unique name="sht_Marks_C_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//sht_Marks_C" />
+      <xs:field xpath="MarkID" />
+    </xs:unique>
+    <xs:unique name="sht_Marks_D_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//sht_Marks_D" />
+      <xs:field xpath="MarkID" />
+    </xs:unique>
+    <xs:unique name="sht_Sheets_AB_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//sht_Sheets_AB" />
+      <xs:field xpath="SheetID" />
+    </xs:unique>
+    <xs:unique name="sht_Sheets_C_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//sht_Sheets_C" />
+      <xs:field xpath="REGION" />
+      <xs:field xpath="SheetID" />
+    </xs:unique>
+    <xs:unique name="sht_Sheets_D_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//sht_Sheets_D" />
+      <xs:field xpath="REGION" />
+      <xs:field xpath="SheetID" />
+    </xs:unique>
+    <xs:unique name="sht_Packages_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//sht_Packages" />
+      <xs:field xpath="REGION" />
+      <xs:field xpath="PackageID" />
+    </xs:unique>
+    <xs:unique name="rbd_SchoolAddress_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//rbd_SchoolAddress" />
+      <xs:field xpath="SchoolAddressID" />
+    </xs:unique>
+    <xs:unique name="rbd_ParticipantsProfSubject_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//rbd_ParticipantsProfSubject" />
+      <xs:field xpath="REGION" />
+      <xs:field xpath="ID" />
+    </xs:unique>
+    <xs:unique name="rbd_ParticipantsSubject_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//rbd_ParticipantsSubject" />
+      <xs:field xpath="REGION" />
+      <xs:field xpath="ID" />
+    </xs:unique>
+    <xs:unique name="rbd_StationWorkersAccreditation_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//rbd_StationWorkersAccreditation" />
+      <xs:field xpath="SWorkerAccreditationID" />
+    </xs:unique>
+    <xs:unique name="rbd_StationFormAct_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//rbd_StationFormAct" />
+      <xs:field xpath="StationFormActId" />
+    </xs:unique>
+    <xs:unique name="rbd_StationForm_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//rbd_StationForm" />
+      <xs:field xpath="StationFormId" />
+      <xs:field xpath="Region" />
+    </xs:unique>
+    <xs:unique name="rbd_StationFormAuditoryFields_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//rbd_StationFormAuditoryFields" />
+      <xs:field xpath="StationFormAuditoryFieldsId" />
+      <xs:field xpath="Region" />
+    </xs:unique>
+    <xs:unique name="rbd_StationFormFields_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//rbd_StationFormFields" />
+      <xs:field xpath="StationFormFieldsId" />
+      <xs:field xpath="Region" />
+    </xs:unique>
+    <xs:unique name="dats_Borders_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//dats_Borders" />
+      <xs:field xpath="REGION" />
+      <xs:field xpath="BorderID" />
+    </xs:unique>
+    <xs:unique name="dats_Groups_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//dats_Groups" />
+      <xs:field xpath="REGION" />
+      <xs:field xpath="ScalingGroupID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

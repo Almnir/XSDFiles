@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns1:GIADBSet xmlns:ns1="http://www.rustest.ru/giadbset" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ns1:rbd_CurrentRegionAddress>
+		<ns1:CurrentRegionAddressID>ADE5BD2E-6388-40A6-AF2C-C74DD04E80AF</ns1:CurrentRegionAddressID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:CurrentRegionID>E4DE0EAA-F8CE-4CB3-9166-58EE0E18E5B2</ns1:CurrentRegionID>
+		<ns1:AddressID>F1B95499-41BE-4F7D-840F-B61984C9616A</ns1:AddressID>
+		<ns1:AddressTypeID>1</ns1:AddressTypeID>
+		<ns1:AddressKind>NULL</ns1:AddressKind>
+		<ns1:CreateDate>2015-12-23 11:35:21.000</ns1:CreateDate>
+		<ns1:UpdateDate>2015-12-23 11:35:21.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-16 11:43:15.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-16 11:43:15.000</ns1:ImportUpdateDate>
+		<ns1:IsDeleted>NULL</ns1:IsDeleted>
+	</ns1:rbd_CurrentRegionAddress>
+	<ns1:rbd_CurrentRegionAddress>
+		<ns1:CurrentRegionAddressID>A4AD1B4C-4F10-40F7-BB18-CE5DC9E7CC59</ns1:CurrentRegionAddressID>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:CurrentRegionID>E4DE0EAA-F8CE-4CB3-9166-58EE0E18E5B2</ns1:CurrentRegionID>
+		<ns1:AddressID>6AF4E665-4389-4919-8F31-372FD5FE706F</ns1:AddressID>
+		<ns1:AddressTypeID>2</ns1:AddressTypeID>
+		<ns1:AddressKind>NULL</ns1:AddressKind>
+		<ns1:CreateDate>2015-12-23 11:35:21.000</ns1:CreateDate>
+		<ns1:UpdateDate>2015-12-23 11:35:21.000</ns1:UpdateDate>
+		<ns1:ImportCreateDate>2014-12-16 11:43:15.000</ns1:ImportCreateDate>
+		<ns1:ImportUpdateDate>2014-12-16 11:43:15.000</ns1:ImportUpdateDate>
+		<ns1:IsDeleted>NULL</ns1:IsDeleted>
+	</ns1:rbd_CurrentRegionAddress>
+</ns1:GIADBSet>

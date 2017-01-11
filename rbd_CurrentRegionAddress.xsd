@@ -1,0 +1,54 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="GIADBSet" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.rustest.ru/giadbset">
+				<xs:simpleType name="DTime">
+					<xs:restriction base="xs:string">
+						<xs:pattern value="((000[1-9])|(00[1-9][0-9])|(0[1-9][0-9]{2})|([1-9][0-9]{3}))-((0[1-9])|(1[012]))-((0[1-9])|([12][0-9])|(3[01]))\s(([01][0-9])|(2[0-3]))(:[0-5][0-9]){2}(\.[0-9]{2}[037])?"/>
+					</xs:restriction>
+				</xs:simpleType>			  
+  <xs:element name="GIADBSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="rbd_CurrentRegionAddress" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CurrentRegionAddressID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="REGION" type="xs:int" />
+              <xs:element name="CurrentRegionID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="AddressID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="AddressTypeID" type="xs:int" />
+              <xs:element name="AddressKind" type="xs:int" minOccurs="0" />
+              <xs:element name="CreateDate">
+			  </xs:element>
+              <xs:element name="UpdateDate">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="((000[1-9])|(00[1-9][0-9])|(0[1-9][0-9]{2})|([1-9][0-9]{3}))-((0[1-9])|(1[012]))-((0[1-9])|([12][0-9])|(3[01]))\s(([01][0-9])|(2[0-3]))(:[0-5][0-9]){2}(\.[0-9]{2}[037])?"/>
+					</xs:restriction>
+				</xs:simpleType>			  
+			  </xs:element>
+              <xs:element name="ImportCreateDate" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="((000[1-9])|(00[1-9][0-9])|(0[1-9][0-9]{2})|([1-9][0-9]{3}))-((0[1-9])|(1[012]))-((0[1-9])|([12][0-9])|(3[01]))\s(([01][0-9])|(2[0-3]))(:[0-5][0-9]){2}(\.[0-9]{2}[037])?"/>
+					</xs:restriction>
+				</xs:simpleType>			  
+			  </xs:element>
+              <xs:element name="ImportUpdateDate" minOccurs="0">
+  				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="((000[1-9])|(00[1-9][0-9])|(0[1-9][0-9]{2})|([1-9][0-9]{3}))-((0[1-9])|(1[012]))-((0[1-9])|([12][0-9])|(3[01]))\s(([01][0-9])|(2[0-3]))(:[0-5][0-9]){2}(\.[0-9]{2}[037])?"/>
+					</xs:restriction>
+				</xs:simpleType>			  
+			  </xs:element>
+              <xs:element name="IsDeleted" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//rbd_CurrentRegionAddress" />
+      <xs:field xpath="CurrentRegionAddressID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

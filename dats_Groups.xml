@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns1:GIADBSet xmlns:ns1="http://www.rustest.ru/giadbset">
+	<ns1:dats_Groups>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:ScalingGroupID>A078C8E7-DEFC-43AB-963C-194D8341180C</ns1:ScalingGroupID>
+		<ns1:GroupTypeCode>3</ns1:GroupTypeCode>
+		<ns1:GroupName>Критерии по геометрии</ns1:GroupName>
+		<ns1:TestTypeCode>6</ns1:TestTypeCode>
+		<ns1:SubjectCode>2</ns1:SubjectCode>
+		<ns1:ScaleMarkMinimum>2</ns1:ScaleMarkMinimum>
+		<ns1:GroupMarkMinimum>2</ns1:GroupMarkMinimum>
+	</ns1:dats_Groups>
+	<ns1:dats_Groups>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:ScalingGroupID>5D8E0597-C1D7-4471-932A-1A0E80542BA6</ns1:ScalingGroupID>
+		<ns1:GroupTypeCode>2</ns1:GroupTypeCode>
+		<ns1:GroupName>ГК1-ГК4</ns1:GroupName>
+		<ns1:TestTypeCode>6</ns1:TestTypeCode>
+		<ns1:SubjectCode>1</ns1:SubjectCode>
+		<ns1:ScaleMarkMinimum>4</ns1:ScaleMarkMinimum>
+		<ns1:GroupMarkMinimum>6</ns1:GroupMarkMinimum>
+	</ns1:dats_Groups>
+	<ns1:dats_Groups>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:ScalingGroupID>95859BB0-0654-4200-A9A0-1A2285A6744B</ns1:ScalingGroupID>
+		<ns1:GroupTypeCode>3</ns1:GroupTypeCode>
+		<ns1:GroupName>Критерии по алгебре</ns1:GroupName>
+		<ns1:TestTypeCode>6</ns1:TestTypeCode>
+		<ns1:SubjectCode>2</ns1:SubjectCode>
+		<ns1:ScaleMarkMinimum>2</ns1:ScaleMarkMinimum>
+		<ns1:GroupMarkMinimum>3</ns1:GroupMarkMinimum>
+	</ns1:dats_Groups>
+	<ns1:dats_Groups>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:ScalingGroupID>0414C5B0-00E0-4B05-A040-94A77FE19FE1</ns1:ScalingGroupID>
+		<ns1:GroupTypeCode>2</ns1:GroupTypeCode>
+		<ns1:GroupName>ГК1-ГК4</ns1:GroupName>
+		<ns1:TestTypeCode>6</ns1:TestTypeCode>
+		<ns1:SubjectCode>1</ns1:SubjectCode>
+		<ns1:ScaleMarkMinimum>3</ns1:ScaleMarkMinimum>
+		<ns1:GroupMarkMinimum>4</ns1:GroupMarkMinimum>
+	</ns1:dats_Groups>
+	<ns1:dats_Groups>
+		<ns1:REGION>99</ns1:REGION>
+		<ns1:ScalingGroupID>386BAC55-039D-4D24-A9E8-CB4959503456</ns1:ScalingGroupID>
+		<ns1:GroupTypeCode>3</ns1:GroupTypeCode>
+		<ns1:GroupName>Критерии по реальной математике</ns1:GroupName>
+		<ns1:TestTypeCode>6</ns1:TestTypeCode>
+		<ns1:SubjectCode>2</ns1:SubjectCode>
+		<ns1:ScaleMarkMinimum>2</ns1:ScaleMarkMinimum>
+		<ns1:GroupMarkMinimum>2</ns1:GroupMarkMinimum>
+	</ns1:dats_Groups>
+</ns1:GIADBSet>
