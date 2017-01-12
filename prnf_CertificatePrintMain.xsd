@@ -106,10 +106,5 @@
         </xs:element>
       </xs:sequence>
     </xs:complexType>
-    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
-      <xs:selector xpath=".//prnf_CertificatePrintMain" />
-      <xs:field xpath="REGION" />
-      <xs:field xpath="CertificatePrintMainID" />
-    </xs:unique>
   </xs:element>
 </xs:schema>

@@ -47,10 +47,5 @@
         </xs:element>
       </xs:sequence>
     </xs:complexType>
-    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
-      <xs:selector xpath=".//sht_Alts" />
-      <xs:field xpath="AltID" />
-      <xs:field xpath="REGION" />
-    </xs:unique>
   </xs:element>
 </xs:schema>

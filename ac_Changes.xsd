@@ -21,11 +21,5 @@
         </xs:element>
       </xs:sequence>
     </xs:complexType>
-    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
-      <xs:selector xpath=".//ac_Changes" />
-      <xs:field xpath="REGION" />
-      <xs:field xpath="ChangeID" />
-      <xs:field xpath="AppealFK" />
-    </xs:unique>
   </xs:element>
 </xs:schema>

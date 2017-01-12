@@ -31,12 +31,5 @@
         </xs:element>
       </xs:sequence>
     </xs:complexType>
-    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
-      <xs:selector xpath=".//res_Answers" />
-      <xs:field xpath="REGION" />
-      <xs:field xpath="HumanTestFK" />
-      <xs:field xpath="TaskTypeCode" />
-      <xs:field xpath="TaskNumber" />
-    </xs:unique>
   </xs:element>
 </xs:schema>

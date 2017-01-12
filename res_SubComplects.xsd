@@ -2,8 +2,8 @@
 <xs:schema id="GIADBSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.rustest.ru/giadbset">
   <xs:element name="GIADBSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
     <xs:complexType>
-      <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="res_SubComplects">
+      <xs:sequence>
+        <xs:element name="res_SubComplects" maxOccurs="unbounded" minOccurs="0">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="REGION" type="xs:int" />
@@ -57,16 +57,11 @@
                 </xs:simpleType>
               </xs:element>
               <xs:element name="VariantCode" type="xs:int" />
-              <xs:element name="IsTom" type="xs:boolean" />
+              <xs:element name="IsTom" type="xs:anyType" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-      </xs:choice>
+      </xs:sequence>
     </xs:complexType>
-    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
-      <xs:selector xpath=".//res_SubComplects" />
-      <xs:field xpath="REGION" />
-      <xs:field xpath="SubComplectID" />
-    </xs:unique>
   </xs:element>
 </xs:schema>

@@ -32,10 +32,5 @@
         </xs:element>
       </xs:sequence>
     </xs:complexType>
-    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
-      <xs:selector xpath=".//rbd_StationFormAuditoryFields" />
-      <xs:field xpath="StationFormAuditoryFieldsId" />
-      <xs:field xpath="Region" />
-    </xs:unique>
   </xs:element>
 </xs:schema>

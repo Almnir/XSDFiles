@@ -25,10 +25,5 @@
         </xs:element>
       </xs:sequence>
     </xs:complexType>
-    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
-      <xs:selector xpath=".//dats_Groups" />
-      <xs:field xpath="REGION" />
-      <xs:field xpath="ScalingGroupID" />
-    </xs:unique>
   </xs:element>
 </xs:schema>

@@ -77,10 +77,5 @@
         </xs:element>
       </xs:sequence>
     </xs:complexType>
-    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
-      <xs:selector xpath=".//sht_Packages" />
-      <xs:field xpath="REGION" />
-      <xs:field xpath="PackageID" />
-    </xs:unique>
   </xs:element>
 </xs:schema>

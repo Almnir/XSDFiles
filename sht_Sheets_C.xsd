@@ -158,10 +158,5 @@
         </xs:element>
       </xs:sequence>
     </xs:complexType>
-    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
-      <xs:selector xpath=".//sht_Sheets_C" />
-      <xs:field xpath="REGION" />
-      <xs:field xpath="SheetID" />
-    </xs:unique>
   </xs:element>
 </xs:schema>

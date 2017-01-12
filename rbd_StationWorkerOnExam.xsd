@@ -51,10 +51,5 @@
         </xs:element>
       </xs:sequence>
     </xs:complexType>
-    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
-      <xs:selector xpath=".//rbd_StationWorkerOnExam" />
-      <xs:field xpath="REGION" />
-      <xs:field xpath="StationWorkerOnExamID" />
-    </xs:unique>
   </xs:element>
 </xs:schema>
