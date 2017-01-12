@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ns1:GIADBSet xmlns:ns1="http://www.rustest.ru/giadbset">
+<ns1:GIADBSet xmlns:ns1="http://www.rustest.ru/giadbset" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<ns1:rbd_StationFormAuditoryFields>
 		<ns1:StationFormAuditoryFieldsId>D728BE5E-BB3E-48D3-8A3A-00086604849A</ns1:StationFormAuditoryFieldsId>
 		<ns1:StationFormId>1849D0F1-1697-4895-A3EA-DD4558EA23AF</ns1:StationFormId>

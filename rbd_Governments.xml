@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ns1:GIADBSet xmlns:ns1="http://www.rustest.ru/giadbset">
+<ns1:GIADBSet xmlns:ns1="http://www.rustest.ru/giadbset" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<ns1:rbd_Governments>
 		<ns1:GovernmentID>1EC477E6-7443-48C6-9A9B-0DF061821589</ns1:GovernmentID>
 		<ns1:RegionID>E4DE0EAA-F8CE-4CB3-9996-58EE0E18E5B2</ns1:RegionID>

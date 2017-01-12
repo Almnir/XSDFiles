@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ns1:GIADBSet xmlns:ns1="http://www.rustest.ru/giadbset">
+<ns1:GIADBSet xmlns:ns1="http://www.rustest.ru/giadbset" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<ns1:rbd_StationWorkersAccreditation>
 		<ns1:SWorkerAccreditationID>808AC8DF-C4C9-443F-A564-00CCDB220546</ns1:SWorkerAccreditationID>
 		<ns1:Region>99</ns1:Region>
