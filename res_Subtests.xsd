@@ -31,11 +31,17 @@
               <xs:element name="VariantCode" type="xs:int" />
               <xs:element name="ProcessCondition" type="xs:int" />
               <xs:element name="ReplicationCondition" type="xs:int" />
-              <xs:element name="UpdateDate" type="xs:dateTime" />
-              <xs:element name="Tasks" type="xs:base64Binary" minOccurs="0" />
-              <xs:element name="PrimaryMark" type="xs:int" minOccurs="0" />
-              <xs:element name="Mark" type="xs:int" minOccurs="0" />
-              <xs:element name="Minimum" type="xs:int" minOccurs="0" />
+              <xs:element name="UpdateDate">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:pattern value="(\d{4})-(\d{2})-(\d{2})(.{1})(\d{2}):(\d{2}):(\d{2}).(\d{2,})"/>
+                  </xs:restriction>
+                </xs:simpleType>  
+              </xs:element>
+              <xs:element name="Tasks" type="xs:anyType" nillable="true" minOccurs="0" />
+              <xs:element name="PrimaryMark" type="xs:anyType" nillable="true" minOccurs="0" />
+              <xs:element name="Mark" type="xs:anyType" nillable="true" minOccurs="0" />
+              <xs:element name="Minimum" type="xs:anyType" nillable="true" minOccurs="0" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>
