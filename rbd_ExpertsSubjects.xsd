@@ -10,9 +10,9 @@
               <xs:element name="ID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
               <xs:element name="ExpertID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
               <xs:element name="SubjectCode" type="xs:int" />
-              <xs:element name="IsDeleted" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsDeleted" type="xs:anyType" minOccurs="0" />
               <xs:element name="CheckForm" type="xs:int" />
-              <xs:element name="ExpertCategoryID" type="xs:int" />
+              <xs:element name="ExpertCategoryID" type="xs:anyType" />
               <xs:element name="ThirdVerifyAcc" type="xs:boolean" />
             </xs:sequence>
           </xs:complexType>

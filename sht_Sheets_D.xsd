@@ -82,7 +82,7 @@
               </xs:element>
               <xs:element name="Condition" type="xs:int" />
               <xs:element name="ProjectBatchID" type="xs:int" />
-              <xs:element name="DeleteType" type="xs:short" minOccurs="0" />
+              <xs:element name="DeleteType" type="xs:anyType" minOccurs="0" />
               <xs:element name="Reserve01" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">

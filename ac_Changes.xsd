@@ -15,7 +15,7 @@
               <xs:element name="NewPrimaryMark" type="xs:int" />
               <xs:element name="NewMark100" type="xs:int" />
               <xs:element name="NewMark5" type="xs:int" />
-              <xs:element name="Info" xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" minOccurs="0" />
+              <xs:element name="Info" type="xs:anyType" minOccurs="0" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>

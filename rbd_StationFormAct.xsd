@@ -15,7 +15,7 @@
               <xs:element name="ExamDate" type="xs:dateTime" />
               <xs:element name="GovermentID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
               <xs:element name="StationID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
-              <xs:element name="ExamGlobalID" type="xs:int" minOccurs="0" />
+              <xs:element name="ExamGlobalID" type="xs:anyType" minOccurs="0" />
               <xs:element name="ProjectName">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">

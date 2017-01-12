@@ -67,7 +67,7 @@
               </xs:element>
               <xs:element name="VariantCode" type="xs:int" />
               <xs:element name="IsTom" type="xs:boolean" />
-              <xs:element name="ComplectType" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="ComplectType" type="xs:anyType" minOccurs="0" />
               <xs:element name="ExchangedID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
             </xs:sequence>
           </xs:complexType>

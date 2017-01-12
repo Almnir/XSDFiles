@@ -10,15 +10,9 @@
               <xs:element name="CertificatePrintMainID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
               <xs:element name="ParticipantFK" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
               <xs:element name="CertificateBlob" xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" minOccurs="0" />
-              <xs:element name="AreaCode" type="xs:int" minOccurs="0" />
-              <xs:element name="SchoolCode" type="xs:int" minOccurs="0" />
-              <xs:element name="Punkt" minOccurs="0">
-                <xs:simpleType>
-                  <xs:restriction base="xs:string">
-                    <xs:maxLength value="50" />
-                  </xs:restriction>
-                </xs:simpleType>
-              </xs:element>
+              <xs:element name="AreaCode" type="xs:anyType" minOccurs="0" />
+              <xs:element name="SchoolCode" type="xs:anyType" minOccurs="0" />
+              <xs:element name="Punkt" type="xs:anyType" minOccurs="0" />
               <xs:element name="Wave" type="xs:int" />
               <xs:element name="LicenseNumber">
                 <xs:simpleType>

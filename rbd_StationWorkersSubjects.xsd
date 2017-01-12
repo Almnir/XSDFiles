@@ -10,7 +10,7 @@
               <xs:element name="ID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
               <xs:element name="SubjectCode" type="xs:int" />
               <xs:element name="StationWorkerID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
-              <xs:element name="IsDeleted" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsDeleted" type="xs:anyType" minOccurs="0" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>

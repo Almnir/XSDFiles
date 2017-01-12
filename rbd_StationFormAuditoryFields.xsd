@@ -26,7 +26,7 @@
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element name="FieldValue3" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="FieldValue3" type="xs:anyType" minOccurs="0" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>

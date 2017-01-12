@@ -26,8 +26,8 @@
               <xs:element name="ExpertFK" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
               <xs:element name="ExpertCode" type="xs:int" />
               <xs:element name="IsThird" type="xs:short" minOccurs="0" />
-              <xs:element name="Alt" type="xs:short" minOccurs="0" />
-              <xs:element name="DeleteType" type="xs:short" minOccurs="0" />
+              <xs:element name="Alt" type="xs:anyType" minOccurs="0" />
+              <xs:element name="DeleteType" type="xs:anyType" minOccurs="0" />
               <xs:element name="Reserve01" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">

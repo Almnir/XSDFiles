@@ -58,7 +58,7 @@
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element name="IsDeleted" type="xs:boolean" />
+              <xs:element name="IsDeleted" type="xs:boolean" minOccurs="0" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>
