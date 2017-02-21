@@ -6,7 +6,13 @@
         <xs:element name="rbd_StationForm" maxOccurs="unbounded" minOccurs="0">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="StationFormId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="StationFormId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:pattern value="\b[A-F0-9]{8}(?:-[A-F0-9]{4}){3}-[A-F0-9]{12}\b"/>
+                  </xs:restriction>
+                </xs:simpleType>  
+              </xs:element>
               <xs:element name="StationFormType" type="xs:int" />
               <xs:element name="Region" type="xs:int" />
               <xs:element name="RegistrationCode" type="xs:int" />
@@ -16,8 +22,20 @@
               <xs:element name="ExamDate" type="xs:dateTime" />
               <xs:element name="CurrentPage" type="xs:int" />
               <xs:element name="CountPage" type="xs:anyType" />
-              <xs:element name="GovermentID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
-              <xs:element name="StationID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+              <xs:element name="GovermentID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:pattern value="\b[A-F0-9]{8}(?:-[A-F0-9]{4}){3}-[A-F0-9]{12}\b"/>
+                  </xs:restriction>
+                </xs:simpleType>  
+              </xs:element>
+              <xs:element name="StationID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:pattern value="\b[A-F0-9]{8}(?:-[A-F0-9]{4}){3}-[A-F0-9]{12}\b"/>
+                  </xs:restriction>
+                </xs:simpleType>  
+              </xs:element>
               <xs:element name="ExamGlobalID" type="xs:anyType" minOccurs="0" />
               <xs:element name="IsTOM" type="xs:anyType" />
               <xs:element name="ProjectName">

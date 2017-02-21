@@ -6,7 +6,13 @@
         <xs:element name="rbd_Participants" maxOccurs="unbounded" minOccurs="0">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="ParticipantID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="ParticipantID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:pattern value="\b[A-F0-9]{8}(?:-[A-F0-9]{4}){3}-[A-F0-9]{12}\b"/>
+                  </xs:restriction>
+                </xs:simpleType>  
+              </xs:element>
               <xs:element name="Region" type="xs:int" />
               <xs:element name="ParticipantCode" minOccurs="0">
                 <xs:simpleType>
@@ -84,11 +90,29 @@
               </xs:element>
               <xs:element name="DeleteType" type="xs:int" />
               <xs:element name="LimitPotencial" type="xs:int" />
-              <xs:element name="ParticipantDouble" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+              <xs:element name="ParticipantDouble" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:pattern value="\b[A-F0-9]{8}(?:-[A-F0-9]{4}){3}-[A-F0-9]{12}\b"/>
+                  </xs:restriction>
+                </xs:simpleType>  
+              </xs:element>
               <xs:element name="FinishRegion" type="xs:anyType" nillable="true" minOccurs="0" />
               <xs:element name="ParticipantCategoryFK" type="xs:int" />
-              <xs:element name="SchoolRegistration" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
-              <xs:element name="SchoolOutcoming" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+              <xs:element name="SchoolRegistration" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:pattern value="\b[A-F0-9]{8}(?:-[A-F0-9]{4}){3}-[A-F0-9]{12}\b"/>
+                  </xs:restriction>
+                </xs:simpleType>  
+              </xs:element>
+              <xs:element name="SchoolOutcoming" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:pattern value="\b[A-F0-9]{8}(?:-[A-F0-9]{4}){3}-[A-F0-9]{12}\b"/>
+                  </xs:restriction>
+                </xs:simpleType>  
+              </xs:element>
               <xs:element name="Study" type="xs:int" />
               <xs:element name="CreateDate">
                 <xs:simpleType>

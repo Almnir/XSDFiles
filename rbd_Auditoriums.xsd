@@ -7,8 +7,20 @@
           <xs:complexType>
             <xs:sequence>
               <xs:element name="REGION" type="xs:int" />
-              <xs:element name="AuditoriumID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
-              <xs:element name="StationID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="AuditoriumID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:pattern value="\b[A-F0-9]{8}(?:-[A-F0-9]{4}){3}-[A-F0-9]{12}\b"/>
+                  </xs:restriction>
+                </xs:simpleType>  
+              </xs:element>
+              <xs:element name="StationID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:pattern value="\b[A-F0-9]{8}(?:-[A-F0-9]{4}){3}-[A-F0-9]{12}\b"/>
+                  </xs:restriction>
+                </xs:simpleType>  
+              </xs:element>
               <xs:element name="AuditoriumCode">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">

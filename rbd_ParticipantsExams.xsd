@@ -7,9 +7,21 @@
           <xs:complexType>
             <xs:sequence>
               <xs:element name="REGION" type="xs:int" />
-              <xs:element name="ParticipantID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="ParticipantID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:pattern value="\b[A-F0-9]{8}(?:-[A-F0-9]{4}){3}-[A-F0-9]{12}\b"/>
+                  </xs:restriction>
+                </xs:simpleType>  
+              </xs:element>
               <xs:element name="ExamGlobalID" type="xs:int" />
-              <xs:element name="ParticipantsExamsID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="ParticipantsExamsID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:pattern value="\b[A-F0-9]{8}(?:-[A-F0-9]{4}){3}-[A-F0-9]{12}\b"/>
+                  </xs:restriction>
+                </xs:simpleType>  
+              </xs:element>
               <xs:element name="CreateDate">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">

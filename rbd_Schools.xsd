@@ -6,8 +6,20 @@
         <xs:element name="rbd_Schools" maxOccurs="unbounded" minOccurs="0">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="SchoolID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
-              <xs:element name="GovernmentID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="SchoolID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:pattern value="\b[A-F0-9]{8}(?:-[A-F0-9]{4}){3}-[A-F0-9]{12}\b"/>
+                  </xs:restriction>
+                </xs:simpleType>  
+              </xs:element>
+              <xs:element name="GovernmentID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:pattern value="\b[A-F0-9]{8}(?:-[A-F0-9]{4}){3}-[A-F0-9]{12}\b"/>
+                  </xs:restriction>
+                </xs:simpleType>  
+              </xs:element>
               <xs:element name="SchoolCode" type="xs:int" />
               <xs:element name="SchoolName" minOccurs="0">
                 <xs:simpleType>
@@ -18,7 +30,13 @@
               </xs:element>
               <xs:element name="SchoolKindFK" type="xs:short" />
               <xs:element name="SchoolPropertyFk" type="xs:short" />
-              <xs:element name="AreaFK" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="AreaFK" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:pattern value="\b[A-F0-9]{8}(?:-[A-F0-9]{4}){3}-[A-F0-9]{12}\b"/>
+                  </xs:restriction>
+                </xs:simpleType>  
+              </xs:element>
               <xs:element name="TownTypeFK" type="xs:int" />
               <xs:element name="LawAddress">
                 <xs:simpleType>
